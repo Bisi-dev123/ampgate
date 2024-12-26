@@ -1,17 +1,13 @@
 import "./index.css";
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import LandingPage from "./pages/Landingpage";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
-      <button className="bg-red-200 text-white" >Click me</button>
+      <LandingPage />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
