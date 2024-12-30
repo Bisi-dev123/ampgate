@@ -1,11 +1,17 @@
 import "./index.css";
 import "./App.css";
-import LandingPage from "./pages/Landingpage";
+// import LandingPage from "./pages/Landingpage";
+// import AboutUs from "./pages/Aboutus";
+// import ContactUs from "./pages/Contactus";
+import Services from "./pages/Servicepage";
 
 function App() {
   return (
     <div>
-      <LandingPage />
+      {/* <LandingPage /> */}
+      {/* <AboutUs /> */}
+      {/* <ContactUs /> */}
+      <Services />
     </div>
   );
 }
