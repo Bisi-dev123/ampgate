@@ -1,8 +1,8 @@
 import "./index.css";
-// import LandingPage from "./pages/Landingpage";
-// import AboutUs from "./pages/Aboutus";
-// import ContactUs from "./pages/Contactus";
-import Services from "./pages/Servicepage";
+// import LandingPage from "./pages/LandingPage";
+// import AboutUs from "./pages/AboutUs";
+// import ContactUs from "./pages/ContactUs";
+import Services from "./pages/Services";
 
 function App() {
   return (
