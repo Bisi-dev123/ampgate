@@ -289,7 +289,7 @@ export default function AboutUs() {
                 </div>
               </div>
             </div>
-            {/* ====Mission& vision image ==== */}
+            {/* ====Mission & vision image ==== */}
             <div className="md:w-[60%] mt-10  md:mt-0 flex items-center justify-center">
               <img
                 src="/mission-vision-image.png"

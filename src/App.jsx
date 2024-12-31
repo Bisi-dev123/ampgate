@@ -1,5 +1,4 @@
 import "./index.css";
-import "./App.css";
 // import LandingPage from "./pages/Landingpage";
 // import AboutUs from "./pages/Aboutus";
 // import ContactUs from "./pages/Contactus";
