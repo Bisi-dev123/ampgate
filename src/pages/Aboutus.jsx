@@ -2,7 +2,7 @@ import { MdLocalPhone } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import { Check } from "lucide-react";
-import Navbar from "../components/navbar/Navbar";
+import Navbar from "/src/components/navbar/Navbar";
 
 export default function AboutUs() {
   return (

@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import Navbar from "../components/navbar/Navbar";
+import Navbar from "/src/components/navbar/Navbar";
 
 export default function Services() {
   return (
