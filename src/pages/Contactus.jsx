@@ -1,6 +1,7 @@
 import { MdLocalPhone } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
+import Navbar from "../components/navbar/Navbar";
 
 export default function ContactUs() {
   return (
@@ -16,9 +17,11 @@ export default function ContactUs() {
             height={100}
           />
           <div className="flex flex-col justify-between  md:px-8 lg:px-24 pb-10 absolute inset-0 bg-black bg-opacity-60">
-            <div className="text-center text-[#ffffff]">Nav bar goes here</div>
+            <div>
+              <Navbar />
+            </div>
             <div className="text-center text-[#FFFFFF]">
-              <p className="font-bold text-3xl md:text-7xl">Contact Us</p>
+              <p className="font-bold text-3xl md:text-5xl lg:text-7xl">Contact Us</p>
               <p className="text-base p-3 md:text-base">
                 Reach out to us and we&apos;ll get back to you as soon as
                 possible
@@ -30,7 +33,7 @@ export default function ContactUs() {
                 <p className="flex items-center gap-3">
                   <MdLocalPhone size={24} />
                   <span className="text-sm md:text-base">
-                    +234 806 064 8425, <br />
+                    +234 806 064 8425, <br className="md:hidden"/>
                     +1 (973) 303-0214
                   </span>
                 </p>
