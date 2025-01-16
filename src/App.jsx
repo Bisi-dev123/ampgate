@@ -1,10 +1,10 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 
-import LandingPage from "./pages/LandingPage";
-import AboutUs from "./pages/Aboutus";
-import Services from "./pages/Services";
-import NotFound from "./pages/NotFound";
-import ContactUs from "./pages/ContactUs";
+import LandingPage from "/src/pages/LandingPage";
+import AboutUs from "/src/pages/Aboutus";
+import Services from "/src/pages/Services";
+import NotFound from "/src/pages/NotFound";
+import ContactUs from "/src/pages/ContactUs";
 
 function App() {
   const location = useLocation();
