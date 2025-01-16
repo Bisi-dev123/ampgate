@@ -18,7 +18,7 @@ export default function LandingPage() {
       {/* === Trusted Partners === */}
       <TrustedPartners />
       {/* === what sets us apart ===  */}
-      <OurProductSection productImage="/setapart-image.png" />
+      <OurProductSection />
       {/* === Services ===  */}
       <ServicesSection />
       {/* === About Us === */}

@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-export default function OurProductSection({ productImage }) {
+export default function OurProductSection() {
   return (
     <div>
       <section className="max-w-7xl mx-auto py-10 px-10">
@@ -74,8 +74,7 @@ export default function OurProductSection({ productImage }) {
           </div>
           <div>
             <img
-              // src="/services-hero-image-one.jpeg"
-              src={productImage}
+              src="/setapart-image.png"
               alt="about-us hero image"
               className="rounded-xl h-[260px] md:h-[350px] lg:h-[550px] w-full object-cover"
               width={100}
