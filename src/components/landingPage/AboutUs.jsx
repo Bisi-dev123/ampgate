@@ -17,8 +17,8 @@ export default function AboutUs() {
               <div className="lg:w-[550px]">
                 <div>
                   <img
-                    // src="/about-us-image.jpeg"
-                    src="https://s3-alpha-sig.figma.com/img/3f51/bdcf/7c8988d1ea109fcc1c9c3a51381bd23c?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O6muxP4g8Qqj5hpnnRcrD2e9U-vS6Ow1EvD3yCg4Fq564b53kmXQQLmWx~VSjtSD0l927Q~jZwCE2De1SCr4L~MNkM5~fOpqbUaelOkLW7H7za2mvDZBIOsAFfoysQTUGGluP2jthwpn4f5D7dLsiojwpwlNWVcxH3tNmmpZ0B8h4kpYhUZ3jwMit98vlZw0b010khJ-cD0Uxgim9-dlItNY0I1DwgOmBK9qgomsSlyrHks11jPD3hVN-wQWSvxBDPheRytFyPNADe6P4mwCNNEpmtevgUkIiDk~euDWXX5rsoAIF~1udtCUo2Eyb01bdmhWwfU3XcKFn5aUUYO51w__"
+                    src="/about-us-image.jpeg"
+                    // src="https://s3-alpha-sig.figma.com/img/3f51/bdcf/7c8988d1ea109fcc1c9c3a51381bd23c?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O6muxP4g8Qqj5hpnnRcrD2e9U-vS6Ow1EvD3yCg4Fq564b53kmXQQLmWx~VSjtSD0l927Q~jZwCE2De1SCr4L~MNkM5~fOpqbUaelOkLW7H7za2mvDZBIOsAFfoysQTUGGluP2jthwpn4f5D7dLsiojwpwlNWVcxH3tNmmpZ0B8h4kpYhUZ3jwMit98vlZw0b010khJ-cD0Uxgim9-dlItNY0I1DwgOmBK9qgomsSlyrHks11jPD3hVN-wQWSvxBDPheRytFyPNADe6P4mwCNNEpmtevgUkIiDk~euDWXX5rsoAIF~1udtCUo2Eyb01bdmhWwfU3XcKFn5aUUYO51w__"
                     alt="about-us hero image"
                     className="rounded-xl h-[260px] md:h-[350px] lg:h-[550px] w-full object-cover"
                     width={100}
