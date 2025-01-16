@@ -5,7 +5,7 @@ export default function WhatDrivesUs() {
         <p className="border-[1.3px] border-[#000000] p-2.5 px-4 rounded-2xl text-center mb-3 w-[200px]">
           What Drives Us
         </p>
-        <p>
+        <p className="text-center">
           Our aspirations guide our path, while our purpose anchors our actions.
         </p>
       </div>

@@ -7,7 +7,9 @@ export default function AboutUs() {
             <p className="border-[1.3px] border-[#000000] p-2 px-4 rounded-2xl text-center mb-3 w-[180px]">
               About Us
             </p>
-            <p>We have a commitment to reliability and innovation</p>
+            <p className="text-center px-4">
+              We have a commitment to reliability and innovation
+            </p>
           </div>
         </div>
         <div>

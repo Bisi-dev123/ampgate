@@ -83,8 +83,8 @@ export default function Services() {
             </p>
           </div>
           <div className="mt-10 grid grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
-            {/* ==== CEO CARD === */}
-            <div className="max-w-[380px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
+            {/* ==== Generator Rentals === */}
+            <div className="max-w-[380px] h-full border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
               <div>
                 <img
                   src="/generator-image.jpeg"
@@ -96,7 +96,7 @@ export default function Services() {
               </div>
               <div className="mt-6">
                 <p className="font-semibold ">Generator Rentals</p>
-                <p className="text-[#464646] font-light text-sm leading-6">
+                <p className="text-[#464646] font-light text-sm leading-6 mt-4">
                   Our diverse fleet of generators, load banks, and power
                   equipment is suitable for a wide range of applications, from
                   temporary power for events and construction sites to emergency
@@ -107,8 +107,8 @@ export default function Services() {
               </div>
             </div>
 
-            {/* ==== CTO CARD === */}
-            <div className="max-w-[380px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
+            {/* ==== Equipment Sales === */}
+            <div className="max-w-[380px] h-full border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
               <div>
                 <img
                   src="/equipment-image.jpeg"
@@ -120,7 +120,7 @@ export default function Services() {
               </div>
               <div className="mt-6">
                 <p className="font-semibold ">Equipment Sales</p>
-                <p className="text-[#464646] font-light text-sm leading-6">
+                <p className="text-[#464646] font-light text-sm leading-6 mt-4">
                   In addition to rentals, we also offer a wide range of power
                   equipment available for purchase. From generators to load
                   banks and other power-related accessories, we provide
@@ -130,8 +130,8 @@ export default function Services() {
               </div>
             </div>
 
-            {/* ==== COO CARD === */}
-            <div className="max-w-[380px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
+            {/* ==== Maintenance services === */}
+            <div className="max-w-[380px] h-full border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
               <div>
                 <img
                   src="/maintenance-image.png"
@@ -142,8 +142,8 @@ export default function Services() {
                 />
               </div>
               <div className="mt-6">
-                <p className="font-semibold ">Equipment Sales</p>
-                <p className="text-[#464646] font-light text-sm leading-6">
+                <p className="font-semibold ">Maintenance services</p>
+                <p className="text-[#464646] font-light text-sm leading-6 mt-4">
                   We understand the critical nature of power equipment, and we
                   prioritize its reliability through prompt and efficient
                   maintenance services. Our team of skilled technicians provides
