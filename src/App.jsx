@@ -5,7 +5,8 @@ import HomePage from "./pages/HomePage";
 import AboutUs from "/src/pages/Aboutus";
 import Services from "/src/pages/Services";
 import NotFound from "/src/pages/NotFound";
-import ContactUs from "./pages/ContactUs";
+// import ContactUs from "./pages/ContactUs";
+import ContactUsPage from "./pages/ContactUsPage";
 
 function App() {
   const location = useLocation();
@@ -14,7 +15,7 @@ function App() {
       <Routes location={location} key={location.key}>
         <Route path="/" element={<HomePage />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/contact-us" element={<ContactUsPage />} />
         <Route path="/services" element={<Services />} />
 
         {/* ====== NotFound Route (Catch all) ===== */}
