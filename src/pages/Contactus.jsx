@@ -131,7 +131,7 @@ export default function ContactUs() {
       </section>
 
       {/* ======MAP SECTION====== */}
-      <section>
+      {/* <section>
         <div className="sm:w-full lg:w-full border-[1.3px] border-blue-300">
           <iframe
             style={{
@@ -145,7 +145,7 @@ export default function ContactUs() {
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=4,%20Alhaji%20Akanbi%20Oreniwon%20Street.%20Lagos,%20Nigeria+(Ampgate)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
