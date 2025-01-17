@@ -20,7 +20,7 @@ export default function Navbar() {
             height={100}
           />
         </div>
-        <div className="flex items-center gap-6 text-[#4A4A4A]">
+        <div className="flex items-center gap-6 text-[#4A4A4A] uppercase">
           <Link to="/">Home</Link>
           <Link to="/about-us">About Us</Link>
           <Link to="/services">Services</Link>
