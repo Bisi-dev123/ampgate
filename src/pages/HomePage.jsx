@@ -10,7 +10,7 @@ import OurProductSection from "/src/components/OurProductSection";
 import PowerUpSection from "/src/components/PowerUpSection";
 import ServicesSection from "/src/components/ServicesSection";
 
-export default function LandingPage() {
+export default function HomePage() {
   return (
     <div className="bg-[#F8F7F3]">
       {/* ===Hero section=== */}
