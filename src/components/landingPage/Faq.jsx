@@ -1,5 +1,13 @@
 export default function Faq() {
   return (
-    <div className="border-2 border-green-300 p-3">This is Faq section</div>
+    <div>
+      <section className="max-w-7xl mx-auto py-10 px-4">
+        <div>
+        <p>Frequently Asked Questions (FAQs)</p>
+        <p>Any questions? We got you.</p>
+        </div>
+        
+      </section>
+    </div>
   );
 }

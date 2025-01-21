@@ -306,7 +306,7 @@ export default function AboutUs() {
                 <div className="h-8 w-8 rounded-full bg-[#33B333] flex items-center justify-center">
                   <Check color="#FFFFFF" />
                 </div>
-                <p>Comprehensive Servicesy</p>
+                <p>Comprehensive Services</p>
               </div>
               <div className="flex items-center justify-center gap-4 w-fit">
                 <div className="h-8 w-8 rounded-full bg-[#33B333] flex items-center justify-center">
