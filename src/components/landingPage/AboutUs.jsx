@@ -39,7 +39,7 @@ export default function AboutUs() {
                   and gas, utility, IPP, industrial and commercial segments of
                   the economy.
                 </p>
-                <button className="bg-[#FFB100] text-[#FFFFFF] w-[130px] p-3 rounded-lg text-sm mt-10">
+                <button className="bg-[#FFB100] text-[#FFFFFF] w-[130px] p-3 rounded-2xl text-sm mt-10 hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300">
                   Read More
                 </button>
               </div>

@@ -15,7 +15,7 @@ export default function LetsTalk() {
               Ready to Power Up Your Business?
             </p>
             <p className="text-lg">Let&apos;s Talk</p>
-            <button className="bg-[#FFB100] text-[#ffffff] p-3 rounded-xl w-[150px] mt-3 md:mt-8">
+            <button className="bg-[#FFB100] text-[#ffffff] p-3 rounded-2xl w-[130px] mt-3 md:mt-8 hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300" >
               Contact Us
             </button>
           </div>
