@@ -1,21 +1,38 @@
+import { Link, useNavigate } from "react-router-dom";
+
 export default function Navbar() {
-  return <div className="ml-20 mr-20">
-    <div>
-      <p className="bg-[#FFB100] flex justify-center items-center text-[#ffffff] rounded-tl-lg rounded-tr-lg">Let Ampgate Limited power your success</p>
+  const navigate = useNavigate();
+  return (
+    <div className="p-3 rounded-2xl text-[#FFFFFF] text-center hidden md:block">
+      <p className="bg-[#FFB100] rounded-t-2xl p-0.5 text-base font-light">
+        Let Ampgate Limited power your success
+      </p>
+      <div className="flex items-center justify-between px-14 py-4 bg-[#FFFFFF] rounded-b-2xl ">
+        <div
+          onClick={() => navigate("/")}
+          className="text-[#4A4A4A] text-2xl font-bold cursor-pointer"
+        >
+          <img
+            src="/ampgate-yellow-color.png"
+            alt="Company Brand Logo"
+            className="w-[160px] h-[53px] object-cover"
+            width={100}
+            height={100}
+          />
+        </div>
+        <div className="flex items-center gap-6 text-[#4A4A4A] uppercase font-semibold">
+          <Link to="/">Home</Link>
+          <Link to="/about-us">About Us</Link>
+          <Link to="/services">Services</Link>
+        </div>
+
+        <button
+          onClick={() => navigate("/contact-us")}
+          className="p-3 rounded-2xl w-[130px] bg-[#FFB100] hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300"
+        >
+          Contact Us
+        </button>
+      </div>
     </div>
-    <div className="bg-[#FFFFFF] flex justify-between items-center rounded-bl-lg rounded-br-lg p-4">
-      {/* <img src="../" alt="" /> */}
-      <p>LOGO</p>
-      <nav>
-        <ul className="flex space-x-8">
-          <li>HOME</li>
-          <li>ABOUT US</li>
-          <li>SERVICES</li>
-        </ul>
-      </nav>
-      <button className="bg-[#FFB100] text-[#ffffff] p-3 rounded-xl w-[150px] ">
-              Contact Us
-      </button>
-    </div>
-  </div>;
+  );
 }

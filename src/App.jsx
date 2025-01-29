@@ -1,17 +1,25 @@
-import "./index.css";
-import LandingPage from "./pages/LandingPage";
-// import AboutUs from "./pages/AboutUs";
-// import ContactUs from "./pages/ContactUs";
-// import Services from "./pages/Services";
+import { Route, Routes, useLocation } from "react-router-dom";
+
+import HomePage from "./pages/HomePage";
+import AboutUs from "/src/pages/AboutUs";
+import Services from "/src/pages/Services";
+import NotFound from "/src/pages/NotFound";
+import ContactUsPage from "./pages/ContactUsPage";
 
 function App() {
+  const location = useLocation();
   return (
-    <div>
-      <LandingPage />
-      {/* <AboutUs /> */}
-      {/* <ContactUs /> */}
-      {/* <Services /> */}
-    </div>
+    <>
+      <Routes location={location} key={location.key}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/contact-us" element={<ContactUsPage />} />
+        <Route path="/services" element={<Services />} />
+
+        {/* ====== NotFound Route (Catch all) ===== */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
   );
 }
 
