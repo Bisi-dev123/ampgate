@@ -1,10 +1,10 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
-import AboutUs from "/src/pages/AboutUs";
-import Services from "/src/pages/Services";
-import NotFound from "/src/pages/NotFound";
+import Services from "./pages/Services";
+import NotFound from "./pages/NotFound";
 import ContactUsPage from "./pages/ContactUsPage";
+import Aboutus from "./pages/Aboutus";
 
 function App() {
   const location = useLocation();
@@ -12,7 +12,7 @@ function App() {
     <>
       <Routes location={location} key={location.key}>
         <Route path="/" element={<HomePage />} />
-        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/about-us" element={<Aboutus />} />
         <Route path="/contact-us" element={<ContactUsPage />} />
         <Route path="/services" element={<Services />} />
 

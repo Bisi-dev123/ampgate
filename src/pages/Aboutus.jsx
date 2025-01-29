@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { Check } from "lucide-react";
 import Navbar from "/src/components/navbar/Navbar";
 
-export default function AboutUs() {
+export default function Aboutus() {
   return (
     <>
       <div className="bg-[#F8F7F3]">
