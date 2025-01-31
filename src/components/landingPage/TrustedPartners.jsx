@@ -1,4 +1,29 @@
 export default function TrustedPartners() {
+  const partners = [
+    { src: "/trusted-partner-1.png", width: "56px", height: "58px", rounded: true,},
+    { src: "/trusted-partner-2.png", width: "56px", height: "56px", rounded: false,},
+    { src: "/trusted-partner-3.png", width: "56px", height: "56px", rounded: false,},
+    { src: "/trusted-partner-4.png", width: "56px", height: "28px", rounded: false,},
+    { src: "/trusted-partner-7.png", width: "80px", height: "56px", rounded: true,},
+  ];
+
+  const PartnerImages = () => (
+    <div className="flex items-center justify-between gap-10 mx-32">
+      {partners.map((partner, index) => (
+        <img
+          key={index}
+          src={partner.src}
+          alt="Trusted Partner"
+          style={{
+            width: partner.width,
+            height: partner.height,
+            borderRadius: partner.rounded ? "9999px" : "0",
+          }}
+          className="object-cover mx-24"
+        />
+      ))}
+    </div>
+  );
   return (
     <div className="p-3 lg:pb-40 lg:pt-12   bg-[#F8F7F3] ">
       <div className="flex flex-col justify-center items-center">
@@ -10,58 +35,15 @@ export default function TrustedPartners() {
           energy solutions
         </p>
       </div>
-      <div className="flex justify-between items-center gap-10 overflow-auto max-w-7xl mx-auto mt-10 px-10">
-        <img
-          src="/trusted-partner-1.png"
-          alt="Contact Us hero image"
-          className="w-[56px] h-[58px] object-cover rounded-full"
-          width={100}
-          height={100}
-        />
-
-        <img
-          src="/trusted-partner-2.png"
-          alt="Contact Us hero image"
-          className="w-[56px] h-[56px] object-cover"
-          width={100}
-          height={100}
-        />
-
-        <img
-          src="/trusted-partner-3.png"
-          alt="Contact Us hero image"
-          className="w-[56px] h-[56px] object-cover"
-          width={100}
-          height={100}
-        />
-        <img
-          src="/trusted-partner-4.png"
-          alt="Contact Us hero image"
-          className="w-[56px] h-[28px] object-cover"
-          width={100}
-          height={100}
-        />
-        <img
-          src="/trusted-partner-5.png"
-          alt="Contact Us hero image"
-          className="w-[56px] h-[56px] object-cover"
-          width={100}
-          height={100}
-        />
-        <img
-          src="/trusted-partner-6.png"
-          alt="Contact Us hero image"
-          className="w-[56px] h-[56px] object-cover"
-          width={100}
-          height={100}
-        />
-        <img
-          src="/trusted-partner-7.png"
-          alt="Contact Us hero image"
-          className="w-[80px] h-[56px] object-cover rounded-full"
-          width={100}
-          height={100}
-        />
+      <div className="max-w-7xl mx-auto mt-16">
+        <div className="w-full overflow-hidden">
+          <div className="relative flex whitespace-nowrap animate">
+            <PartnerImages />
+            <PartnerImages />
+            <PartnerImages />
+            <PartnerImages />
+          </div>
+        </div>
       </div>
     </div>
   );
