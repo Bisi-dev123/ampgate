@@ -1,6 +1,7 @@
 import { Check } from "lucide-react";
 import Navbar from "/src/components/navbar/Navbar";
 import Footer from "/src/components/footer/Footer";
+import MobileNavbar from "/src/components/navbar/MobileNavbar";
 
 export default function Services() {
   return (
@@ -8,11 +9,12 @@ export default function Services() {
       <div className="bg-[#F8F7F3]">
         {/* ======HERO SECTION====== */}
         <section className="bg-[#FEE9B1]">
-          <div className="flex flex-col justify-between max-w-7xl mx-auto pb-20 px-6">
+          <div className="flex flex-col justify-between max-w-7xl mx-auto pb-20 px-">
             <div>
               <Navbar />
+              <MobileNavbar />
             </div>
-            <div className="text-center max-w-5xl mx-auto mt-14">
+            <div className="text-center max-w-5xl mx-auto mt-32 md:mt-14 px-4">
               <p className="font-bold text-3xl md:text-7xl">
                 Tailored Energy Solutions to Drive Your Success
               </p>
@@ -22,7 +24,7 @@ export default function Services() {
               </p>
             </div>
 
-            <div className="flex items-baseline justify-between gap-10 mt-10">
+            <div className="flex items-baseline justify-between gap-10 mt-10 px-4">
               <div className="space-y-6">
                 <img
                   src="/services-hero-image-two.jpeg"

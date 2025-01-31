@@ -2,6 +2,7 @@ import { MdLocalPhone } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import Navbar from "/src/components/navbar/Navbar";
+import MobileNavbar from "/src/components/navbar/MobileNavbar";
 
 export default function Hero() {
   return (
@@ -21,6 +22,7 @@ export default function Hero() {
             <div className="flex flex-col justify-between  md:px-8 lg:px-24 pb-24 absolute inset-0 bg-black bg-opacity-60">
               <div>
                 <Navbar />
+                <MobileNavbar />
               </div>
               <div className="text-center text-[#FFFFFF]">
                 <p className="text-base p-3 md:text-xl font-semibold mt-10 capitalize">

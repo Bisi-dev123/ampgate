@@ -3,6 +3,7 @@ import { CiMail } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "/src/components/footer/Footer";
+import MobileNavbar from "/src/components/navbar/MobileNavbar";
 
 export default function ContactUsPage() {
   return (
@@ -20,6 +21,7 @@ export default function ContactUsPage() {
           <div className="flex flex-col justify-between  md:px-8 lg:px-24 pb-10 absolute inset-0 bg-black bg-opacity-60">
             <div>
               <Navbar />
+              <MobileNavbar />
             </div>
             <div className="text-center text-[#FFFFFF]">
               <p className="font-bold text-3xl md:text-5xl lg:text-7xl">

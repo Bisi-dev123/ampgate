@@ -3,6 +3,7 @@ import { CiMail } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import { Check } from "lucide-react";
 import Navbar from "/src/components/navbar/Navbar";
+import MobileNavbar from "/src/components/navbar/MobileNavbar";
 import Footer from "/src/components/footer/Footer";
 
 export default function Aboutus() {
@@ -11,11 +12,12 @@ export default function Aboutus() {
       <div className="bg-[#F8F7F3]">
         {/* ======HERO SECTION====== */}
         <section className="bg-[#FEE9B1]">
-          <div className="flex flex-col justify-between max-w-7xl mx-auto pb-40 md:pb-20 px-6">
+          <div className="flex flex-col justify-between max-w-7xl mx-auto pb-40 md:pb-20">
             <div>
               <Navbar />
+              <MobileNavbar />
             </div>
-            <div className="text-center max-w-3xl mx-auto mt-14">
+            <div className="text-center max-w-3xl mx-auto mt-32 md:mt-14 px-4">
               <p className="font-bold text-3xl md:text-7xl">
                 Empowering a Brighter Future Together
               </p>
@@ -24,7 +26,7 @@ export default function Aboutus() {
                 reliable, innovative, and sustainable energy solutions
               </p>
             </div>
-            <div className="relative mt-16">
+            <div className="relative mt-16 mx-4">
               <img
                 src="/about-us-hero-image.jpeg"
                 alt="about-us hero image"
