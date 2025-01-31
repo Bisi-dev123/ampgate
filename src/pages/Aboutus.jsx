@@ -3,6 +3,7 @@ import { CiMail } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import { Check } from "lucide-react";
 import Navbar from "/src/components/navbar/Navbar";
+import Footer from "/src/components/footer/Footer";
 
 export default function Aboutus() {
   return (
@@ -378,6 +379,9 @@ export default function Aboutus() {
             </div>
           </div>
         </section>
+
+        {/* ======FOOTER SECTION====== */}
+        <Footer />
       </div>
     </>
   );

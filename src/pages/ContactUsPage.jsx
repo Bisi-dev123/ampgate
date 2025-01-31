@@ -2,7 +2,7 @@ import { MdLocalPhone } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import Navbar from "../components/navbar/Navbar";
-
+import Footer from "/src/components/footer/Footer";
 
 export default function ContactUsPage() {
   return (
@@ -149,6 +149,8 @@ export default function ContactUsPage() {
           ></iframe>
         </div>
       </section>
+      {/* ======FOOTER SECTION====== */}
+      <Footer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { Check } from "lucide-react";
 import Navbar from "/src/components/navbar/Navbar";
+import Footer from "/src/components/footer/Footer";
 
 export default function Services() {
   return (
@@ -321,6 +322,9 @@ export default function Services() {
             </div>
           </div>
         </section>
+
+        {/* ======FOOTER SECTION====== */}
+        <Footer />
       </div>
     </>
   );
