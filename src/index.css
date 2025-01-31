@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* =====Trusted Partners styling ===== */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate {
+  animation: marquee 10s linear infinite;
+}
+
+.animate:hover {
+  animation-play-state: paused;
+}
