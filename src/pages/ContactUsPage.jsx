@@ -50,12 +50,17 @@ export default function ContactUsPage() {
                   </span>
                 </p>
               </div>
-              <div className="bg-[#ffffff] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl">
-                <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
-                  <FaWhatsapp color="#FFFFFF" size={24} className="" />
-                </div>
-                Say Hi
-              </div>
+              <a
+                  href="https://api.whatsapp.com/send/?phone=2348060648425&text=Welcome+to+Ampgate!+How+may+we+be+of+service+today?&type=phone_number&app_absent=0"
+                  target="_blank"
+                >
+                  <div className="bg-[#ffffff] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 animate-bounce">
+                    <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
+                      <FaWhatsapp color="#FFFFFF" size={24} className="" />
+                    </div>
+                    Say Hi
+                  </div>
+                </a>
             </div>
           </div>
         </div>

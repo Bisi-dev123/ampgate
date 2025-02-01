@@ -71,6 +71,34 @@ export default function Services() {
                 />
               </div>
             </div>
+            {/* <div className="flex justify-between px-4">
+              <div className="md:flex items-center gap-4 w-fit text-white">
+                <p className="flex items-center gap-3">
+                  <MdLocalPhone size={24} />
+                  <span className="text-sm md:text-base">
+                    +234 806 064 8425, <br className="md:hidden" />
+                    +1 (973) 303-0214
+                  </span>
+                </p>
+                <p className="flex items-center gap-3">
+                  <CiMail size={24} className="text-white" color="#ffffff" />
+                  <span className="uppercase text-sm md:text-base">
+                    Get a quote
+                  </span>
+                </p>
+              </div>
+              <a
+                href="https://api.whatsapp.com/send/?phone=2348060648425&text=Welcome+to+Ampgate!+How+may+we+be+of+service+today?&type=phone_number&app_absent=0"
+                target="_blank"
+              >
+                <div className="bg-[#ffffff] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 animate-bounce">
+                  <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
+                    <FaWhatsapp color="#FFFFFF" size={24} className="" />
+                  </div>
+                  Say Hi
+                </div>
+              </a>
+            </div> */}
           </div>
         </section>
 
@@ -258,7 +286,11 @@ export default function Services() {
             {/* ====== Card One ====== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
-                <img src="./why-choose-us1.svg" alt=" Customer Service Icon" className="w-7 h-7" />
+                <img
+                  src="./why-choose-us1.svg"
+                  alt=" Customer Service Icon"
+                  className="w-7 h-7"
+                />
               </div>
               <p className="font-semibold my-4">Exceptional Customer Service</p>
               <p className="text-[#464646] font-thin text-lg ">
@@ -271,7 +303,13 @@ export default function Services() {
 
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
-                <img src="./why-choose-us2.svg" width={80} height={80} alt="Quality Icon" className="w-8 h-8" />
+                <img
+                  src="./why-choose-us2.svg"
+                  width={80}
+                  height={80}
+                  alt="Quality Icon"
+                  className="w-8 h-8"
+                />
               </div>
               <p className="font-semibold my-4">Quality and Reliability</p>
               <p className="text-[#464646] font-thin text-lg ">
@@ -285,7 +323,11 @@ export default function Services() {
 
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
-              <img src="./why-choose-us3.svg" alt="Flexibility Icon" className="w-7 h-7" />
+                <img
+                  src="./why-choose-us3.svg"
+                  alt="Flexibility Icon"
+                  className="w-7 h-7"
+                />
               </div>
               <p className="font-semibold my-4">
                 Flexibility and Customization
@@ -300,12 +342,17 @@ export default function Services() {
             {/* ====== Card four ===== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
-              <img src="./why-choose-us4.svg" alt="Expertise Icon" className="w-7 h-7" />
+                <img
+                  src="./why-choose-us4.svg"
+                  alt="Expertise Icon"
+                  className="w-7 h-7"
+                />
               </div>
               <p className="font-semibold my-4">Expertise and Experience</p>
               <p className="text-[#464646] font-thin text-lg">
                 With extensive industry experience, we provide expert power
-                solutions, staying current with trends and regulations all just for you.
+                solutions, staying current with trends and regulations all just
+                for you.
               </p>
             </div>
           </div>
