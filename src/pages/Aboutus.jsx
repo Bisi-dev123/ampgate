@@ -123,8 +123,8 @@ export default function Aboutus() {
           <div className="grid grid-cols-1 md:grid-cols-2 md:place-items-center lg:grid-cols-4 gap-6 mt-10">
             {/* ====== Card One ====== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto">
-                <img src="" alt="" />
+              <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
+                <img src="./why-choose-us1.svg" alt="Customer Service Icon" className="w-7 h-7" />
               </div>
               <p className="font-semibold my-4">Exceptional Customer Service</p>
               <p className="text-[#464646] font-thin text-lg ">
@@ -136,7 +136,9 @@ export default function Aboutus() {
             {/* ====== Card Two ====== */}
 
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto"></div>
+              <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
+                <img src="./why-choose-us2.svg" alt="Quality Icon" className="w-7 h-7" />
+              </div>
               <p className="font-semibold my-4">Quality and Reliability</p>
               <p className="text-[#464646] font-thin text-lg ">
                 Our excellence shows in our top-quality equipment and services.
@@ -148,7 +150,9 @@ export default function Aboutus() {
             {/* =====Card three===== */}
 
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto"></div>
+              <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
+                <img src="./why-choose-us3.svg" alt="Flexibility Icon" className="w-7 h-7" />
+              </div>
               <p className="font-semibold my-4">
                 Flexibility and Customization
               </p>
@@ -161,7 +165,9 @@ export default function Aboutus() {
 
             {/* ====== Card four ===== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto"></div>
+              <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
+              <img src="./why-choose-us4.svg" alt="Expertise Icon" className="w-7 h-7" />
+              </div>
               <p className="font-semibold my-4">Expertise and Experience</p>
               <p className="text-[#464646] font-thin text-lg">
                 With extensive industry experience, we provide expert power

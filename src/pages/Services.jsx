@@ -300,7 +300,7 @@ export default function Services() {
             {/* ====== Card four ===== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
-              <img src="./why-choose-us4.svg" alt="Expertise" className="w-7 h-7" />
+              <img src="./why-choose-us4.svg" alt="Expertise Icon" className="w-7 h-7" />
               </div>
               <p className="font-semibold my-4">Expertise and Experience</p>
               <p className="text-[#464646] font-thin text-lg">
