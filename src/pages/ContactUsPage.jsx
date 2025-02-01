@@ -4,6 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "/src/components/footer/Footer";
 import MobileNavbar from "/src/components/navbar/MobileNavbar";
+import { Link } from "react-router-dom";
 
 export default function ContactUsPage() {
   return (
@@ -59,7 +60,7 @@ export default function ContactUsPage() {
           </div>
         </div>
       </section>
-      {/* ======FORM AND GET INTOUCH SECTION====== */}
+      {/* ======FORM AND GET IN TOUCH SECTION====== */}
       <section className="bg-[#161616] py-14">
         <div className="text-[#ffffff] p-6  md:flex md:flex-row-reverse md:gap-6 max-w-7xl mx-auto">
           {/* ===Get in touch & Form ===== */}
@@ -127,10 +128,10 @@ export default function ContactUsPage() {
               Street. Lagos, Nigeria
             </p>
             <p>+234 806 064 8425</p>
-            <p>sales@ampgatenigeria.com</p>
+            <Link to="mailto:sales@ampgatenigeria.com" className="lg:hover:font-semibold text-[#FFB100]">sales@ampgatenigeria.com</Link>
             <p>AMGATE LLC 6289 VALLEY VIEW DRIVE, Fishers, IN, 46038, USA</p>
             <p>+1 (973) 303-0214</p>
-            <p>ampgatellc.com</p>
+            <Link to="mailto:ampgatellc.com" className="lg:hover:font-semibold text-[#FFB100]">ampgatellc.com</Link>
           </div>
         </div>
       </section>

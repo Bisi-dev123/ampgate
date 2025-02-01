@@ -75,7 +75,7 @@ export default function Services() {
         </section>
 
         {/* ===Our Services==== */}
-        <section className="max-w-7xl mx-auto py-10 px-4">
+        <section className="max-w-7xl mt-20 mx-auto py-10 px-4">
           <div className="max-w-2xl mx-auto text-center">
             <p className="border-[1.3px] border-[#000000] p-2.5 rounded-xl mx-auto mb-4 w-[150px]">
               Our Services
@@ -160,7 +160,7 @@ export default function Services() {
         </section>
 
         {/* ===Our Products==== */}
-        <section className="max-w-7xl mx-auto py-10 px-10">
+        <section className="max-w-7xl mt-20 mx-auto py-10 px-10">
           <div className="grid gap-10 md:grid-cols-2">
             <div>
               <p className="border-[1.3px] border-[#000000] it p-2.5 rounded-xl text-center mb-3 w-[150px]">
@@ -244,7 +244,7 @@ export default function Services() {
         </section>
 
         {/* ======WHY CHOOSE US SECTION====== */}
-        <section className="max-w-7xl mx-auto px-6 py-14">
+        <section className="max-w-7xl mx-auto mt-12 px-6 py-14">
           <div className="max-w-2xl mx-auto text-center">
             <p className="border-[1.3px] border-[#000000] w-fit p-2.5 rounded-xl mx-auto mb-8">
               Why Choose Us
@@ -257,18 +257,22 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 md:place-items-center lg:grid-cols-4 gap-6 mt-10">
             {/* ====== Card One ====== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto"></div>
+              <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
+                <img src="./why-choose-us1.svg" alt=" Customer Service Icon" className="w-7 h-7" />
+              </div>
               <p className="font-semibold my-4">Exceptional Customer Service</p>
               <p className="text-[#464646] font-thin text-lg ">
                 We build lasting relationships by offering personalized
                 attention, quick responses, and professional support every step
-                of the way
+                of the way.
               </p>
             </div>
             {/* ====== Card Two ====== */}
 
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto"></div>
+              <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
+                <img src="./why-choose-us2.svg" width={80} height={80} alt="Quality Icon" className="w-8 h-8" />
+              </div>
               <p className="font-semibold my-4">Quality and Reliability</p>
               <p className="text-[#464646] font-thin text-lg ">
                 Our excellence shows in our top-quality equipment and services.
@@ -280,24 +284,28 @@ export default function Services() {
             {/* =====Card three===== */}
 
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto"></div>
+              <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
+              <img src="./why-choose-us3.svg" alt="Flexibility Icon" className="w-7 h-7" />
+              </div>
               <p className="font-semibold my-4">
                 Flexibility and Customization
               </p>
               <p className="text-[#464646] font-thin text-lg">
                 We tailor our services to your unique power needs, working
                 closely with you to provide solutions that fit your goals and
-                budget
+                budget.
               </p>
             </div>
 
             {/* ====== Card four ===== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto"></div>
+              <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
+              <img src="./why-choose-us4.svg" alt="Expertise" className="w-7 h-7" />
+              </div>
               <p className="font-semibold my-4">Expertise and Experience</p>
               <p className="text-[#464646] font-thin text-lg">
                 With extensive industry experience, we provide expert power
-                solutions, staying current with trends and regulations
+                solutions, staying current with trends and regulations all just for you.
               </p>
             </div>
           </div>

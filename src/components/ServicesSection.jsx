@@ -50,7 +50,7 @@ export default function ServicesSection() {
               <p className="font-semibold ">Equipment Sales</p>
               <p className="text-[#464646] font-light text-sm leading-6 mt-4">
                 In addition to rentals, we also offer a wide range of power
-                equipment available for purchase. From...
+                equipment available for purchase. From generators, to load banks and...
               </p>
               <a href="/services" className="text-[#FFB100] hover:text-[#FFB100]-700 hover:underline">
               Read More

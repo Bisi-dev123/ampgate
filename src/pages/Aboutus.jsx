@@ -19,11 +19,11 @@ export default function Aboutus() {
               <Navbar />
               <MobileNavbar />
             </div>
-            <div className="text-center max-w-3xl mx-auto mt-32 md:mt-14 px-4">
+            <div className="text-center max-w-3xl mx-auto mt-32 md:mt-8 px-4">
               <p className="font-bold text-3xl md:text-7xl">
                 Empowering a Brighter Future Together
               </p>
-              <p className="text-base p-3 md:text-base mt-3">
+              <p className="text-base p-3 md:text-base mt-6">
                 At AMP Gate Nigeria, we are passionate about delivering
                 reliable, innovative, and sustainable energy solutions
               </p>
@@ -165,7 +165,7 @@ export default function Aboutus() {
               <p className="font-semibold my-4">Expertise and Experience</p>
               <p className="text-[#464646] font-thin text-lg">
                 With extensive industry experience, we provide expert power
-                solutions, staying current with trends and regulations
+                solutions, staying current with trends and regulations all just for you.
               </p>
             </div>
           </div>
