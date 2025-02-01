@@ -9,6 +9,7 @@ export default function ServicesSection() {
           <p>
             Discover a range of tailored services designed to power your success
           </p>
+          
         </div>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
           {/* ==== Generator Rentals === */}
@@ -28,6 +29,9 @@ export default function ServicesSection() {
                 Our diverse fleet of generators, load banks, and power equipment
                 is suitable for a wide range of applications, from...
               </p>
+              <a href="/services" className="text-[#FFB100] hover:text-[#FFB100]-700 hover:underline">
+              Read More
+              </a>
             </div>
           </div>
 
@@ -48,6 +52,9 @@ export default function ServicesSection() {
                 In addition to rentals, we also offer a wide range of power
                 equipment available for purchase. From...
               </p>
+              <a href="/services" className="text-[#FFB100] hover:text-[#FFB100]-700 hover:underline">
+              Read More
+              </a>
             </div>
           </div>
 
@@ -68,6 +75,9 @@ export default function ServicesSection() {
                 We understand the critical nature of power equipment, and we
                 prioritize its reliability through prompt and efficient...
               </p>
+              <a href="/services" className="text-[#FFB100] hover:text-[#FFB100]-700 hover:underline">
+              Read More
+              </a>
             </div>
           </div>
         </div>

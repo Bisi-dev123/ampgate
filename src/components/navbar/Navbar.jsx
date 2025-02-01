@@ -21,9 +21,9 @@ export default function Navbar() {
           />
         </div>
         <div className="flex items-center gap-6 text-[#4A4A4A] uppercase font-semibold">
-          <Link to="/">Home</Link>
-          <Link to="/about-us">About Us</Link>
-          <Link to="/services">Services</Link>
+          <Link to="/" className="hover:text-[#FFB100] active:underline">Home</Link>
+          <Link to="/about-us" className="hover:text-[#FFB100] active:underline">About Us</Link>
+          <Link to="/services" className="hover:text-[#FFB100] active:underline">Services</Link>
         </div>
 
         <button

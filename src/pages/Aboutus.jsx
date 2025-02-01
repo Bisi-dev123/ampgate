@@ -5,6 +5,8 @@ import { Check } from "lucide-react";
 import Navbar from "/src/components/navbar/Navbar";
 import MobileNavbar from "/src/components/navbar/MobileNavbar";
 import Footer from "/src/components/footer/Footer";
+import { Link } from "react-router-dom";
+
 
 export default function Aboutus() {
   return (
@@ -121,7 +123,9 @@ export default function Aboutus() {
           <div className="grid grid-cols-1 md:grid-cols-2 md:place-items-center lg:grid-cols-4 gap-6 mt-10">
             {/* ====== Card One ====== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
-              <div className="w-10 h-10 bg-black rounded-full mx-auto"></div>
+              <div className="w-10 h-10 bg-black rounded-full mx-auto">
+                <img src="" alt="" />
+              </div>
               <p className="font-semibold my-4">Exceptional Customer Service</p>
               <p className="text-[#464646] font-thin text-lg ">
                 We build lasting relationships by offering personalized
@@ -203,8 +207,8 @@ export default function Aboutus() {
         </section>
 
         {/* ===Greatest Assets==== */}
-        <section className="max-w-7xl mx-auto">
-          <p className="text-center text-base font-medium">
+        <section className="max-w-7xl mt-20 mx-auto">
+          <p className="text-center text-base font-medium lg:text-2xl lg:font-bold">
             Meet our greatest assets
           </p>
           <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 place-items-center">
@@ -220,7 +224,7 @@ export default function Aboutus() {
                 />
               </div>
               <div className="mt-6">
-                <p className="font-semibold ">John Doe</p>
+                <p className="font-semibold ">Gbenga Olanipon</p>
                 <p className="font-light">Founder & CEO</p>
               </div>
             </div>
@@ -375,9 +379,9 @@ export default function Aboutus() {
                 Ready to Power Up Your Business?
               </p>
               <p className="text-lg">Let&apos;s Talk</p>
-              <button className="bg-[#FFB100] text-[#ffffff] p-3 rounded-xl w-[150px] mt-3 md:mt-8">
+              <Link to="/contact-us" className=" block mx-auto bg-[#FFB100] hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300 text-[#ffffff] p-3 rounded-xl w-[150px] mt-3 md:mt-8">
                 Contact Us
-              </button>
+              </Link>
             </div>
           </div>
         </section>

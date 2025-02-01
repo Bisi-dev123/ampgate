@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -26,9 +26,9 @@ export default function Footer() {
           <div>
             <p className="font-bold mb-8">Support</p>
             <ul className="cursor-pointer space-y-4 font-light text-base lg:text-lg">
-              <li onClick={() => navigate("/about-us")}>About us </li>
-              <li onClick={() => navigate("/services")}>Services</li>
-              <li onClick={() => navigate("/contact-us")}>Contact Us</li>
+              <li onClick={() => navigate("/about-us")} className="hover:font-semibold">About us </li>
+              <li onClick={() => navigate("/services")} className="hover:font-semibold">Services</li>
+              <li onClick={() => navigate("/contact-us")} className="hover:font-semibold">Contact Us</li>
               <li>Faq </li>
             </ul>
           </div>
@@ -46,8 +46,8 @@ export default function Footer() {
           <div className="my-10 md:my-0">
             <p className="font-bold mb-8">Contact Us</p>
             <ul className="space-y-4 text-base font-light">
-              <li className="text-wrap">sales@ampgatenigeria.com</li>
-              <li>ampgatellc.com</li>
+              <Link to="mailto:sales@ampgatenigeria.com" className="text-wrap block hover:font-semibold">sales@ampgatenigeria.com</Link>
+              <Link to="mailto:ampgatellc.com" className="text-wrap block hover:font-semibold ">ampgatellc.com</Link>
               <li>+234 806 064 8425</li>
               <li>+1 (973) 303-0214</li>
             </ul>
