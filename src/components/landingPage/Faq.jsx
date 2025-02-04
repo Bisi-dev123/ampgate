@@ -1,5 +1,5 @@
 import { ArrowDown, ArrowUp, MessageSquare } from "lucide-react";
-import { faqData } from "../../utils/LinkData";
+import { faqData } from "../../utils/FaqData";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
