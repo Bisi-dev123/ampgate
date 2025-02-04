@@ -7,6 +7,13 @@ export default function Testimonials() {
         </p>
         <p className="">Hear from our satisfied clients</p>
       </div>
+
+      <div className="flex ">
+        <div className="">
+          <p className="text-[#FF8F06]">Name of company</p>
+          <p>"Ampgate Limited exceeded our expectations during a critical project. The team delivered top-notch generators and provided seamless installation. Their professionalism and prompt service saved us from downtime. Highly recommended!"</p>
+        </div>
+      </div>
     </div>
   );
 }

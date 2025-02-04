@@ -31,7 +31,7 @@ export default function Faq() {
             Do you provide installation and setup services?
           </p>
         </div>
-        <div>
+        <div className="p-36 m-6">
           <p className="font-bold text-3xl mt-2 text-[#161616] ">Do you have more questions?</p>
           <p>Kindly send an email by clicking on the button below. We shall respond as soon as possible.</p>
           <button

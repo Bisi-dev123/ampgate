@@ -2,14 +2,17 @@ import { Check } from "lucide-react";
 import Navbar from "/src/components/navbar/Navbar";
 import Footer from "/src/components/footer/Footer";
 import MobileNavbar from "/src/components/navbar/MobileNavbar";
+import { MdLocalPhone } from "react-icons/md";
+import { CiMail } from "react-icons/ci";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Services() {
   return (
     <>
       <div className="bg-[#F8F7F3]">
         {/* ======HERO SECTION====== */}
-        <section className="bg-[#FEE9B1]">
-          <div className="flex flex-col justify-between max-w-7xl mx-auto pb-20 px-">
+        <section className="bg-[#FED24C] bg-opacity-90">
+          <div className="flex flex-col justify-between max-w-7xl mx-auto pb-20 ">
             <div>
               <Navbar />
               <MobileNavbar />
@@ -71,7 +74,7 @@ export default function Services() {
                 />
               </div>
             </div>
-            {/* <div className="flex justify-between px-4">
+            <div className="flex justify-between px-4">
               <div className="md:flex items-center gap-4 w-fit text-white">
                 <p className="flex items-center gap-3">
                   <MdLocalPhone size={24} />
@@ -98,7 +101,7 @@ export default function Services() {
                   Say Hi
                 </div>
               </a>
-            </div> */}
+            </div>
           </div>
         </section>
 
