@@ -11,7 +11,7 @@ export default function Services() {
     <>
       <div className="bg-[#F8F7F3]">
         {/* ======HERO SECTION====== */}
-        <section className="bg-[#FED24C] bg-opacity-90">
+        <section className="bg-[#FED24C]">
           <div className="flex flex-col justify-between max-w-7xl mx-auto pb-20 ">
             <div>
               <Navbar />

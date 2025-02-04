@@ -19,7 +19,7 @@ export default function Aboutus() {
               <Navbar />
               <MobileNavbar />
             </div>
-            <div className="text-center max-w-3xl mx-auto mt-32 md:mt-8 px-4">
+            <div className="text-center max-w-4xl mx-auto mt-32 md:mt-8 px-4">
               <p className="font-bold text-3xl md:text-7xl">
                 Empowering a Brighter Future Together
               </p>

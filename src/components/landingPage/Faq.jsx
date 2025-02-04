@@ -24,14 +24,14 @@ export default function Faq() {
       </div>
 
       <div className="md:flex space-y-6  md:justify-between max-w-6xl md:space-y-0 md:space-x-4 lg:space-x-0 mx-auto px-2 md:px-6 items-center">
-        <div className="bg-white border-[1.3px] border-[#262626] rounded-2xl max-w-[650px] mt-16  shadow-[#FF8F06]">
+        <div className="bg-white border-[1.3px] border-[#404040] rounded-2xl max-w-[650px] mt-16  shadow-[#FF8F06]">
           {faqData.map((faq) => (
             <div
               key={faq.id}
               onClick={() => setActiveFaq(activeFaq === faq.id ? null : faq.id)}
               className={`${
                 activeFaq === faq.id ? "mt-0  bg-white" : "mt-0 lg:py-8"
-              } flex text-[#161616] border-b-[0.5px] border-[#262626] p-4 md:p-8 lg:px-6  justify-between  max-w-[1100px] mx-auto cursor-pointer`}
+              } flex text-[#4a4a4a] border-b-[0.5px] border-[#404040] p-4 md:p-8 lg:px-6  justify-between  max-w-[1100px] mx-auto cursor-pointer`}
             >
               <div>
                 <p
