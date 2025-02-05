@@ -4,36 +4,36 @@ export const faqData = [
     id: 1,
     question: "What services does Ampgate Limited offer?",
     answer:
-      "Yes. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique nulla fugit eum, hic quisquam dolor ",
+      "Ampgate Limited provides a range of power solutions, including:"
   },
   {
     id: 2,
     question: "What types of power equipment are available for sale or rent?",
     answer:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique nulla fugit eum, hic quisquam dolor ",
+      "We offer a wide range of equipment, including: ",
   },
   {
     id: 3,
     question: "What industries do you serve?",
     answer:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique nulla fugit eum, hic quisquam dolor ",
+      "We cater to a variety of industries, including:",
   },
   {
     id: 4,
     question: "How do I request a quote for your services?",
     answer:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique nulla fugit eum, hic quisquam dolor ",
+      "You can request a quote by contacting us via our website, email, or phone. Provide details about your project, and our team will get back to you promptly. ",
   },
   {
     id: 5,
     question: "What sets Ampgate Limited apart from competitors?",
     answer:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique nulla fugit eum, hic quisquam dolor ",
+      "Yes, our engineering team can assist with the installation and setup of all equipment, ensuring a seamless and efficient process.",
   },
   {
     id: 6,
     question: "Do you provide installation and setup services?",
     answer:
-      "Yes. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique nulla fugit eum, hic quisquam dolor ",
+      "We pride ourselves on delivering reliable, efficient, and customized power solutions. Our experienced team, diverse range of equipment, and commitment to customer satisfaction make us a trusted partner. ",
   },
 ];
