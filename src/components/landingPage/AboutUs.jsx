@@ -4,7 +4,7 @@ export default function AboutUs() {
       <section>
         <div className="p-3 py-10 bg-[#F8F7F3]">
           <div className="flex flex-col justify-center items-center">
-            <p className="border-[1.3px] border-[#000000] p-2 px-4 rounded-2xl text-center mb-3 w-[180px]">
+            <p className="border-[1.3px] border-[#FF8F06] p-2 px-4 rounded-2xl text-center mb-3 w-[180px]">
               About Us
             </p>
             <p className="text-center px-4">

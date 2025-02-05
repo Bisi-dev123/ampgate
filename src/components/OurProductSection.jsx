@@ -5,7 +5,7 @@ export default function OurProductSection() {
       <section className="max-w-7xl mx-auto py-10 px-10">
         <div className="grid gap-10 md:grid-cols-2">
           <div>
-            <p className="border-[1.3px] border-[#000000] it p-2.5 rounded-xl text-center mb-3 w-[150px]">
+            <p className="border-[1.3px] border-[#FF8F06] it p-2.5 rounded-xl text-center mb-3 w-[150px]">
               Our Products
             </p>
             <p className="max-w-md">

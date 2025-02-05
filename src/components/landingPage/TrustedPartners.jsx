@@ -27,7 +27,7 @@ export default function TrustedPartners() {
   return (
     <div className="p-3 lg:pb-40 lg:pt-12   bg-[#F8F7F3] ">
       <div className="flex flex-col justify-center items-center">
-        <p className="border-[1.3px] border-[#000000] p-2.5 px-4 rounded-2xl text-center mb-3 w-fit">
+        <p className="border-[1.3px] border-[#FF8F06] p-2.5 px-4 rounded-2xl text-center mb-3 w-fit">
           Our Trusted Partners
         </p>
         <p className="mt-3 text-center px-4">
