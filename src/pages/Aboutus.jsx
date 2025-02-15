@@ -52,10 +52,10 @@ export default function Aboutus() {
                   </p>
                 </div>
                 <a
-                href="https://api.whatsapp.com/send/?phone=2348060648425&text=Welcome+to+Ampgate!+How+may+we+be+of+service+today?&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=2348060648425&text=Hello+there!+I'd+like+to+know+more+about+your+product+and+services.&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                <div className="bg-[#ffffff] text-[#1e1e1e] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 animate-bounce">
+                <div className="bg-[#ffffff] text-[#1e1e1e] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 z-[999] animate-bounce">
                   <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
                     <FaWhatsapp color="#FFFFFF" size={24} className="" />
                   </div>
@@ -117,7 +117,7 @@ export default function Aboutus() {
         {/* ======WHY CHOOSE US SECTION====== */}
         <section className="max-w-7xl mx-auto px-6 py-14">
           <div className="max-w-2xl mx-auto text-center">
-            <p className="border-[1.3px] border-[#000000] w-fit p-2.5 rounded-xl mx-auto mb-8">
+            <p className="border-[1.3px] border-[#FF8F06] w-fit p-2.5 rounded-xl mx-auto mb-8">
               Why Choose Us
             </p>
             <p>
@@ -185,7 +185,7 @@ export default function Aboutus() {
         {/* ======Our Expert team ==== */}
         <section className="max-w-7xl mx-auto px-6 py-14">
           <div className="max-w-2xl mx-auto text-center">
-            <p className="border-[1.3px] border-[#000000] w-fit p-2.5 rounded-xl mx-auto mb-8">
+            <p className="border-[1.3px] border-[#FF8F06] w-fit p-2.5 rounded-xl mx-auto mb-8">
               Our Expert Team
             </p>
             <p>Ampgate Team: Powering Your Business with Expertise</p>

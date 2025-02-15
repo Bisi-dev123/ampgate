@@ -74,7 +74,7 @@ export default function Services() {
                 />
               </div>
             </div>
-            <div className="flex justify-between px-4">
+            <div className="flex justify-between mt-10  px-4">
               <div className="md:flex items-center gap-4 w-fit text-white">
                 <p className="flex items-center gap-3">
                   <MdLocalPhone size={24} />
@@ -91,10 +91,10 @@ export default function Services() {
                 </p>
               </div>
               <a
-                href="https://api.whatsapp.com/send/?phone=2348060648425&text=Welcome+to+Ampgate!+How+may+we+be+of+service+today?&type=phone_number&app_absent=0"
+                href="https://api.whatsapp.com/send/?phone=2348060648425&text=Hello+there!+I'd+like+to+know+more+about+your+product+and+services.&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                <div className="bg-[#ffffff] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 animate-bounce">
+                <div className="bg-[#ffffff] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 z-[999] animate-bounce">
                   <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
                     <FaWhatsapp color="#FFFFFF" size={24} className="" />
                   </div>
@@ -106,9 +106,9 @@ export default function Services() {
         </section>
 
         {/* ===Our Services==== */}
-        <section className="max-w-7xl mt-20 mx-auto py-10 px-4">
+        <section className="max-w-7xl md:mt-20 mt-10 mx-auto py-10 px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <p className="border-[1.3px] border-[#000000] p-2.5 rounded-xl mx-auto mb-4 w-[150px]">
+            <p className="border-[1.3px] border-[#FF8F06] p-2.5 rounded-xl mx-auto mb-4 w-[150px]">
               Our Services
             </p>
             <p>
@@ -116,7 +116,7 @@ export default function Services() {
               success
             </p>
           </div>
-          <div className="mt-10 grid grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
             {/* ==== Generator Rentals === */}
             <div className="max-w-[380px] h-full border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
               <div>
@@ -194,7 +194,7 @@ export default function Services() {
         <section className="max-w-7xl mt-20 mx-auto py-10 px-10">
           <div className="grid gap-10 md:grid-cols-2">
             <div>
-              <p className="border-[1.3px] border-[#000000] it p-2.5 rounded-xl text-center mb-3 w-[150px]">
+              <p className="border-[1.3px] border-[#FF8F06] it p-2.5 rounded-xl text-center mb-3 w-[150px]">
                 Our Products
               </p>
               <p className="max-w-md">
@@ -277,7 +277,7 @@ export default function Services() {
         {/* ======WHY CHOOSE US SECTION====== */}
         <section className="max-w-7xl mx-auto mt-12 px-6 py-14">
           <div className="max-w-2xl mx-auto text-center">
-            <p className="border-[1.3px] border-[#000000] w-fit p-2.5 rounded-xl mx-auto mb-8">
+            <p className="border-[1.3px] border-[#FF8F06] w-fit p-2.5 rounded-xl mx-auto mb-8">
               Why Choose Us
             </p>
             <p>

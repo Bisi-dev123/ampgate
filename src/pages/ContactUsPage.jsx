@@ -51,10 +51,10 @@ export default function ContactUsPage() {
                 </p>
               </div>
               <a
-                  href="https://api.whatsapp.com/send/?phone=2348060648425&text=Welcome+to+Ampgate!+How+may+we+be+of+service+today?&type=phone_number&app_absent=0"
+                  href="https://api.whatsapp.com/send/?phone=2348060648425&text=Hello+there!+I'd+like+to+know+more+about+your+product+and+services.&type=phone_number&app_absent=0"
                   target="_blank"
                 >
-                  <div className="bg-[#ffffff] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 animate-bounce">
+                  <div className="bg-[#ffffff] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 z-[999] animate-bounce">
                     <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
                       <FaWhatsapp color="#FFFFFF" size={24} className="" />
                     </div>
@@ -74,13 +74,15 @@ export default function ContactUsPage() {
             <p className="text-3xl font-bold mb-10 mt-4">
               Get in touch with us
             </p>
-            <form action="" method="get">
+            <form action="https://getform.io/f/bllylqlb" method="POST">
               <div className="grid gap-10">
                 {/* ===FullName Input ===== */}
                 <div className="flex flex-col gap-4">
                   <label htmlFor="fullName">Your Name </label>
                   <input
                     type="text"
+                    required
+                    name="fullName"
                     placeholder="Enter full name"
                     className="p-3 bg-transparent border-[0.5px] border-[#ffffff] rounded-md focus:outline-none w-full"
                   />
@@ -90,6 +92,8 @@ export default function ContactUsPage() {
                   <label htmlFor="subject">Subject</label>
                   <input
                     type="text"
+                    name="subject"
+                    required
                     placeholder="Enter subject"
                     className="p-3 bg-transparent border-[0.5px] border-[#ffffff] rounded-md focus:outline-none w-full"
                   />
@@ -100,6 +104,8 @@ export default function ContactUsPage() {
                   <textarea
                     className="p-3 focus:outline-none bg-transparent border-[0.5px] border-[#ffffff] rounded-md w-full"
                     placeholder="Add description"
+                    name="message"
+                    required
                     rows={4}
                     cols={20}
                   />
@@ -108,7 +114,7 @@ export default function ContactUsPage() {
                 <div className="flex flex-col gap-3">
                   <button
                     type="submit"
-                    className="border-[0.5px] border-[#ffffff] rounded-md w-fit px-6 py-1"
+                    className=" bg-[#ffb100] rounded-md w-fit px-6 py-1"
                   >
                     Submit
                   </button>

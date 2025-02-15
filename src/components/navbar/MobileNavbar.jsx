@@ -33,16 +33,16 @@ export default function MobileNavbar() {
             : "absolute top-0 left-0 z-1000 w-full h-screen bg-[#FFFFFF] text-[#161616] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-xl">
+        <li className="py-6 text-xl hover:bg-[#ffb100] inline-block w-full text-center">
           <Link to="/">Home</Link>
         </li>
-        <li className="py-6 text-xl">
+        <li className="py-6 text-xl hover:bg-[#ffb100] inline-block w-full text-center">
           <Link to="/about-us">About</Link>
         </li>
-        <li className="py-6 text-xl">
+        <li className="py-6 text-xl hover:bg-[#ffb100] inline-block w-full text-center">
           <Link to="/services">Services</Link>
         </li>
-        <li className="py-6 text-xl">
+        <li className="py-6 text-xl hover:bg-[#ffb100] inline-block w-full text-center">
           <Link to="/contact-us">Contact Us</Link>
         </li>
       </ul>
