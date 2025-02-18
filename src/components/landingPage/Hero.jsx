@@ -3,6 +3,7 @@ import { CiMail } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import Navbar from "/src/components/navbar/Navbar";
 import MobileNavbar from "/src/components/navbar/MobileNavbar";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -31,13 +32,13 @@ export default function Hero() {
                 <p className="font-bold text-3xl md:text-5xl lg:text-7xl">
                   Your Premier Partner for Power Solutions
                 </p>
-                <p className="text-base p-3 md:text-base mt-3">
+                <p className="text-base p-3 md:text-base mt-3 mb-3">
                   Industry-leading experts in energy and power solutions
                   tailored for your needs
                 </p>
-                <button className=" p-3 rounded-2xl mt-6 w-[130px] bg-[#FFB100] hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300">
+                <Link to="/services" className=" p-3 rounded-2xl mt-6 w-[150px] bg-[#FFB100] hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300">
                   Learn More
-                </button>
+                </Link>
               </div>
 
               <div className="flex justify-between px-4">
