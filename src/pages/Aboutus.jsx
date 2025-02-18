@@ -31,6 +31,7 @@ export default function Aboutus() {
             <div className="relative mt-16 mx-4">
               <img
                 src="/about-us-hero-image.jpeg"
+                // src="/load-bank.png"
                 alt="about-us hero image"
                 className="rounded-xl md:h-[505px] w-full object-cover"
                 width={100}
@@ -52,16 +53,16 @@ export default function Aboutus() {
                   </p>
                 </div>
                 <a
-                href="https://api.whatsapp.com/send/?phone=2348060648425&text=Hello+there!+I'd+like+to+know+more+about+your+product+and+services.&type=phone_number&app_absent=0"
-                target="_blank"
-              >
-                <div className="bg-[#ffffff] text-[#1e1e1e] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 z-[999] animate-bounce">
-                  <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
-                    <FaWhatsapp color="#FFFFFF" size={24} className="" />
+                  href="https://api.whatsapp.com/send/?phone=2348060648425&text=Hello+there!+I'd+like+to+know+more+about+your+product+and+services.&type=phone_number&app_absent=0"
+                  target="_blank"
+                >
+                  <div className="bg-[#ffffff] text-[#1e1e1e] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 z-[999] animate-bounce">
+                    <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
+                      <FaWhatsapp color="#FFFFFF" size={24} className="" />
+                    </div>
+                    Say Hi
                   </div>
-                  Say Hi
-                </div>
-              </a>
+                </a>
               </div>
             </div>
           </div>
@@ -80,7 +81,8 @@ export default function Aboutus() {
           </div>
           <div>
             <img
-              src="/ampgate-staffs-image.jpeg"
+              src="/crane.jpeg"
+              // src="/ampgate-staffs-image.jpeg"
               alt="about-us hero image"
               className="rounded-xl h-[350px] w-full object-cover"
               width={100}
@@ -92,7 +94,8 @@ export default function Aboutus() {
         <section className="grid md:grid-cols-2 gap-20 py-14 max-w-7xl mx-auto px-6">
           <div>
             <img
-              src="/ampgate-solar-image.jpeg"
+              src="/cat-generator.jpeg"
+              // src="/ampgate-solar-image.jpeg"
               alt="about-us hero image"
               className="rounded-xl h-[350px] w-full object-cover"
               width={100}
@@ -129,7 +132,11 @@ export default function Aboutus() {
             {/* ====== Card One ====== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
-                <img src="./why-choose-us1.svg" alt="Customer Service Icon" className="w-7 h-7" />
+                <img
+                  src="./why-choose-us1.svg"
+                  alt="Customer Service Icon"
+                  className="w-7 h-7"
+                />
               </div>
               <p className="font-semibold my-4">Exceptional Customer Service</p>
               <p className="text-[#464646] font-thin text-lg ">
@@ -142,7 +149,11 @@ export default function Aboutus() {
 
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
-                <img src="./why-choose-us2.svg" alt="Quality Icon" className="w-7 h-7" />
+                <img
+                  src="./why-choose-us2.svg"
+                  alt="Quality Icon"
+                  className="w-7 h-7"
+                />
               </div>
               <p className="font-semibold my-4">Quality and Reliability</p>
               <p className="text-[#464646] font-thin text-lg ">
@@ -156,7 +167,11 @@ export default function Aboutus() {
 
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
-                <img src="./why-choose-us3.svg" alt="Flexibility Icon" className="w-7 h-7" />
+                <img
+                  src="./why-choose-us3.svg"
+                  alt="Flexibility Icon"
+                  className="w-7 h-7"
+                />
               </div>
               <p className="font-semibold my-4">
                 Flexibility and Customization
@@ -171,12 +186,17 @@ export default function Aboutus() {
             {/* ====== Card four ===== */}
             <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
-              <img src="./why-choose-us4.svg" alt="Expertise Icon" className="w-7 h-7" />
+                <img
+                  src="./why-choose-us4.svg"
+                  alt="Expertise Icon"
+                  className="w-7 h-7"
+                />
               </div>
               <p className="font-semibold my-4">Expertise and Experience</p>
               <p className="text-[#464646] font-thin text-lg">
                 With extensive industry experience, we provide expert power
-                solutions, staying current with trends and regulations all just for you.
+                solutions, staying current with trends and regulations all just
+                for you.
               </p>
             </div>
           </div>
@@ -390,7 +410,10 @@ export default function Aboutus() {
                 Ready to Power Up Your Business?
               </p>
               <p className="text-lg">Let&apos;s Talk</p>
-              <Link to="/contact-us" className=" block mx-auto bg-[#FFB100] hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300 text-[#ffffff] p-3 rounded-xl w-[150px] mt-3 md:mt-8">
+              <Link
+                to="/contact-us"
+                className=" block mx-auto bg-[#FFB100] hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300 text-[#ffffff] p-3 rounded-xl w-[150px] mt-3 md:mt-8"
+              >
                 Contact Us
               </Link>
             </div>
