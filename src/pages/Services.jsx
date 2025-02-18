@@ -30,7 +30,7 @@ export default function Services() {
             <div className="flex items-baseline justify-between gap-10 mt-10 px-4">
               <div className="space-y-6">
                 <img
-                  src="/services-hero-image-two.jpeg"
+                  src="/services-hero-image-three.jpeg"
                   alt="services hero image"
                   className="rounded-full h-[60px] md:h-[100px] md:w-[100px] lg:h-[200px] lg:w-[200px] object-cover lg:ml-10 xl:ml-20"
                   width={100}
@@ -38,7 +38,7 @@ export default function Services() {
                 />
 
                 <img
-                  src="/services-hero-image-three.jpeg"
+                  src="/three-phase-transformer.png"
                   alt="services hero image"
                   className="rounded-full h-[60px] md:h-[100px] md:w-[100px] lg:h-[180px] lg:w-[180px] object-cover"
                   width={100}
@@ -48,7 +48,8 @@ export default function Services() {
 
               <div>
                 <img
-                  src="/services-hero-image-one.jpeg"
+                  src="/cat-generator.jpeg"
+                  // src="/services-hero-image-one.jpeg"
                   alt="about-us hero image"
                   className="rounded-3xl md:rounded-full h-[100px] w-[260px] md:h-[240px] md:w-[550px] object-cover"
                   width={100}
@@ -264,7 +265,8 @@ export default function Services() {
             </div>
             <div>
               <img
-                src="/services-hero-image-one.jpeg"
+                src="/diesel-tank.png"
+                // src="/services-hero-image-one.jpeg"
                 alt="about-us hero image"
                 className="rounded-xl h-[260px] md:h-[350px] lg:h-[550px] w-full object-cover"
                 width={100}
@@ -376,7 +378,7 @@ export default function Services() {
                 Ready to Power Up Your Business?
               </p>
               <p className="text-lg">Let&apos;s Talk</p>
-              <button className="bg-[#FFB100] text-[#ffffff] p-3 rounded-xl w-[150px] mt-3 md:mt-8">
+              <button className="text-[#ffffff] p-3 rounded-xl w-[150px] mt-3 md:mt-8 bg-[#FFB100] hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300">
                 Contact Us
               </button>
             </div>
