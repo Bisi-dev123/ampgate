@@ -2,6 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   const navigate = useNavigate();
+  const pathname = window?.location?.pathname;
   return (
     <div className="p-3 rounded-2xl text-[#FFFFFF] text-center hidden md:block">
       <p className="bg-[#FFB100] rounded-t-2xl p-0.5 text-base font-light">
@@ -21,9 +22,30 @@ export default function Navbar() {
           />
         </div>
         <div className="flex items-center gap-6 text-[#4A4A4A] uppercase font-semibold">
-          <Link to="/" className="hover:text-[#FFB100] active:underline">Home</Link>
-          <Link to="/about-us" className="hover:text-[#FFB100] active:underline">About Us</Link>
-          <Link to="/services" className="hover:text-[#FFB100] active:underline">Services</Link>
+          <Link
+            to="/"
+            className={`${
+              pathname === "/" && "text-[#FFB100] underline"
+            } hover:text-[#FFB100] active:underline`}
+          >
+            Home
+          </Link>
+          <Link
+            to="/about-us"
+            className={`${
+              pathname === "/about-us" && "text-[#FFB100] underline"
+            } hover:text-[#FFB100] active:underline`}
+          >
+            About Us
+          </Link>
+          <Link
+            to="/services"
+            className={`${
+              pathname === "/services" && "text-[#FFB100] underline"
+            } hover:text-[#FFB100] active:underline`}
+          >
+            Services
+          </Link>
         </div>
 
         <button
