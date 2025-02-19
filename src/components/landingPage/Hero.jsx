@@ -14,7 +14,6 @@ export default function Hero() {
           <div className="relative rounded-xl">
             <img
               src="/landing-hero-image.png"
-              // src="https://s3-alpha-sig.figma.com/img/db69/8331/a3708d409fb2b997cf7fb652ce1fee14?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m-5waJIupLTazAW2dCr60p5SD9djQYMsZHmiO5Fy90I9zjGCj~npLKmWL5cwzAYnAO~qshSsBR9PjjpHdWLqpGFgegqmR9EcPnWL875ccnUKX9L8O3jiE~EpXCEaCDcT~cgugi0Zk9LwVTU6GNALL3fBjifH9v-~xpL7H-tsUeioS4LMBYE64VTp~Bh6xxhh~xrRcoDMo35et7JzUNT13MHkFxaetOw-SY7VeVnw7OLuGq9MKVLM~yuZHKXasvyLPkSepsxXd7IVPnC1AnHehHinlPTzyg5tphm~7~CAu0d-drZJVKnNpdCZRBe1riCs4sZALoiBeHsKGiJk~wQqLw__"
               alt="Contact Us hero image"
               className="h-[650px] xl:h-[800px] w-full object-cover"
               width={100}

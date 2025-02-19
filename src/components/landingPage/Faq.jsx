@@ -49,7 +49,11 @@ export default function Faq() {
                   <span>{faq.question}</span>
                 </p>
                 {activeFaq === index && (
-                  <p className="text-sm lg:text-base mt-4">{faq.answer}</p>
+                  <p className="text-sm lg:text-base mt-4">{faq.answer.map((item, index)=>(
+                    <p key={index}>
+                      {item}
+                    </p>
+                  ))}</p>
                 )}
               </div>
               <div>

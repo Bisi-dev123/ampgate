@@ -4,19 +4,37 @@ export const faqData = [
     id: 1,
     question: "What services does Ampgate Limited offer?",
     answer:
-      "Ampgate Limited provides a range of power solutions, including:"
+      ["Ampgate Limited provides a range of power solutions, including:",
+        "• Generator and load bank rentals", 
+        "• Logistics and engineering support",
+        "• Project management for power systems",
+        "• Sales of power equipment",
+        "• Maintenance services for power equipment",
+      ]
   },
   {
     id: 2,
     question: "What types of power equipment are available for sale or rent?",
     answer:
-      "We offer a wide range of equipment, including: ",
+      ["We offer a wide range of equipment, including: ",
+        "• Generators (various sizes and capacities)", 
+        "• Load banks",
+        "• Transformers",
+        "• Cables and related accessories",
+        
+      ]
   },
   {
     id: 3,
     question: "What industries do you serve?",
     answer:
-      "We cater to a variety of industries, including:",
+      ["We cater to a variety of industries, including:",
+        "• Construction", 
+        "• Events and entertainment",
+        "• Manufacturing",
+        "• Oil and gas",
+        "• Telecommunication",
+      ]
   },
   {
     id: 4,

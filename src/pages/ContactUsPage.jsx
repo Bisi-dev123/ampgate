@@ -74,7 +74,7 @@ export default function ContactUsPage() {
             <p className="text-3xl font-bold mb-10 mt-4">
               Get in touch with us
             </p>
-            <form action="https://getform.io/f/bllylqlb" method="POST">
+            <form action="https://getform.io/f/bpjnjqpb" method="POST">
               <div className="grid gap-10">
                 {/* ===FullName Input ===== */}
                 <div className="flex flex-col gap-4">

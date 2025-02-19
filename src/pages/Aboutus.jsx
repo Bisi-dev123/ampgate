@@ -14,7 +14,7 @@ export default function Aboutus() {
       <div className="bg-[#F8F7F3]">
         {/* ======HERO SECTION====== */}
         <section className="bg-[#FED24C]">
-          <div className="flex flex-col justify-between max-w-7xl mx-auto pb-40 md:pb-20">
+          <div className="flex flex-col justify-between max-w-6xl mx-auto pb-40 md:pb-20">
             <div>
               <Navbar />
               <MobileNavbar />
@@ -238,13 +238,13 @@ export default function Aboutus() {
         </section>
 
         {/* ===Greatest Assets==== */}
-        <section className="max-w-7xl mt-20 mx-auto">
+        <section className="max-w-7xl lg:mt-20 mt-12 mx-auto">
           <p className="text-center text-base font-medium lg:text-2xl lg:font-bold">
             Meet our greatest assets
           </p>
           <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 place-items-center">
             {/* ==== CEO CARD === */}
-            <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
+            <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4 mb-8">
               <div>
                 <img
                   src="/expert-ceo-image.jpeg"
@@ -261,7 +261,7 @@ export default function Aboutus() {
             </div>
 
             {/* ==== CTO CARD === */}
-            <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
+            <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4 mb-8">
               <div>
                 <img
                   src="/expert-ceo-image.jpeg"
@@ -278,7 +278,7 @@ export default function Aboutus() {
             </div>
 
             {/* ==== COO CARD === */}
-            <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
+            <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4 mb-8">
               <div>
                 <img
                   src="/expert-ceo-image.jpeg"

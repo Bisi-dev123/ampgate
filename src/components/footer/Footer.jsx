@@ -38,7 +38,7 @@ export default function Footer() {
             <ul className="space-y-4 text-base font-light  w-[250px]">
               <li>4, Alhaji Akanbi Oreniwon Street. Lagos, Nigeria </li>
               <li>
-                AMGPATE LLC, 6289, VALLEY VIEW DRIVE, Fishers, IN, 46038, USA
+                6289, Valley View Drive, Fishers, IN, 46038, USA
               </li>
             </ul>
           </div>
