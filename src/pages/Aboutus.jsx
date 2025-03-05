@@ -7,7 +7,6 @@ import MobileNavbar from "/src/components/navbar/MobileNavbar";
 import Footer from "/src/components/footer/Footer";
 import { Link } from "react-router-dom";
 
-
 export default function Aboutus() {
   return (
     <>
@@ -30,10 +29,10 @@ export default function Aboutus() {
             </div>
             <div className="relative mt-16 mx-4">
               <img
-                src="/about-us-hero-image.jpeg"
+                src="/about-us-hero-image2.jpeg"
                 // src="/load-bank.png"
                 alt="about-us hero image"
-                className="rounded-xl md:h-[505px] w-full object-cover"
+                className="rounded-xl md:h-[505px] w-full object-center"
                 width={100}
                 height={100}
               />
