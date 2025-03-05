@@ -19,7 +19,7 @@ export default function Hero() {
               width={100}
               height={100}
             />
-            <div className="flex flex-col justify-between  md:px-8 lg:px-24 pb-24 absolute inset-0 bg-black bg-opacity-60">
+            <div className="flex flex-col justify-between md:px-8 lg:px-24 pb-24 absolute inset-0 bg-black bg-opacity-60">
               <div>
                 <Navbar />
                 <MobileNavbar />
@@ -35,7 +35,10 @@ export default function Hero() {
                   Industry-leading experts in energy and power solutions
                   tailored for your needs
                 </p>
-                <Link to="/services" className=" p-3 rounded-2xl mt-6 w-[150px] bg-[#FFB100] hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300">
+                <Link
+                  to="/services"
+                  className=" p-3 rounded-2xl mt-6 w-[150px] bg-[#FFB100] hover:bg-gradient-to-b hover:from-[#4a4a4a] hover:to-[#FFB100] transition-all duration-300"
+                >
                   Learn More
                 </Link>
               </div>

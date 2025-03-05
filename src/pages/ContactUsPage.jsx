@@ -34,7 +34,7 @@ export default function ContactUsPage() {
               </p>
             </div>
 
-            <div className="flex justify-between px-4">
+            <div className="flex justify-between px-4 max-w-7xl mx-auto w-full">
               <div className="md:flex items-center gap-4 w-fit text-white">
                 <p className="flex items-center gap-3">
                   <MdLocalPhone size={24} />
@@ -51,16 +51,16 @@ export default function ContactUsPage() {
                 </p>
               </div>
               <a
-                  href="https://api.whatsapp.com/send/?phone=2348060648425&text=Hello+there!+I'd+like+to+know+more+about+your+product+and+services.&type=phone_number&app_absent=0"
-                  target="_blank"
-                >
-                  <div className="bg-[#ffffff] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 z-[999] animate-bounce">
-                    <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
-                      <FaWhatsapp color="#FFFFFF" size={24} className="" />
-                    </div>
-                    Say Hi
+                href="https://api.whatsapp.com/send/?phone=2348060648425&text=Hello+there!+I'd+like+to+know+more+about+your+product+and+services.&type=phone_number&app_absent=0"
+                target="_blank"
+              >
+                <div className="bg-[#ffffff] p-2  px-6 h-fit flex justify-center items-center gap-2 rounded-3xl font-normal fixed bottom-10 right-10 z-[999] animate-bounce">
+                  <div className="bg-[#019734] p-2 rounded-full flex items-center w-8 h-8">
+                    <FaWhatsapp color="#FFFFFF" size={24} className="" />
                   </div>
-                </a>
+                  Say Hi
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -139,10 +139,20 @@ export default function ContactUsPage() {
               Street. Lagos, Nigeria
             </p>
             <p>+234 806 064 8425</p>
-            <Link to="mailto:sales@ampgatenigeria.com" className="lg:hover:font-semibold text-[#FFB100]">sales@ampgatenigeria.com</Link>
+            <Link
+              to="mailto:sales@ampgatenigeria.com"
+              className="lg:hover:font-semibold text-[#FFB100]"
+            >
+              sales@ampgatenigeria.com
+            </Link>
             <p>AMGATE LLC 6289 VALLEY VIEW DRIVE, Fishers, IN, 46038, USA</p>
             <p>+1 (973) 303-0214</p>
-            <Link to="mailto:ampgatellc.com" className="lg:hover:font-semibold text-[#FFB100]">ampgatellc.com</Link>
+            <Link
+              to="mailto:ampgatellc.com"
+              className="lg:hover:font-semibold text-[#FFB100]"
+            >
+              ampgatellc.com
+            </Link>
           </div>
         </div>
       </section>

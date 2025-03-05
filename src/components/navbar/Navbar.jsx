@@ -4,7 +4,7 @@ export default function Navbar() {
   const navigate = useNavigate();
   const pathname = window?.location?.pathname;
   return (
-    <div className="p-3 rounded-2xl text-[#FFFFFF] text-center hidden md:block">
+    <div className="p-3 rounded-2xl text-[#FFFFFF] text-center max-w-7xl mx-auto hidden md:block">
       <p className="bg-[#FFB100] rounded-t-2xl p-0.5 text-base font-light">
         Let Ampgate Limited power your success
       </p>
