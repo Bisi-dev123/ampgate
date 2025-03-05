@@ -44,12 +44,15 @@ export default function Aboutus() {
                       +234 806 064 8425, +1 (973) 303-0214
                     </span>
                   </p>
-                  <p className="flex items-center gap-3">
-                    <CiMail size={24} className="md:text-[#ffffff]" />
+                  <a
+                    href="mailto:sales@ampgatenigeria.com"
+                    className="flex items-center gap-3"
+                  >
+                    <CiMail size={24} className="text-white" color="#ffffff" />
                     <span className="uppercase text-sm md:text-base">
                       Get a quote
                     </span>
-                  </p>
+                  </a>
                 </div>
                 <a
                   href="https://api.whatsapp.com/send/?phone=2348060648425&text=Hello+there!+I'd+like+to+know+more+about+your+product+and+services.&type=phone_number&app_absent=0"
@@ -90,8 +93,8 @@ export default function Aboutus() {
           </div>
         </section>
         {/* ======POWER UP POTENTIALS SECTION====== */}
-        <section className="grid md:grid-cols-2 gap-20 py-14 max-w-7xl mx-auto px-6">
-          <div>
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-20 py-14 max-w-7xl mx-auto px-6 md:auto-rows-auto">
+          <div className="order-2 md:order-1">
             <img
               src="/cat-generator.jpeg"
               // src="/ampgate-solar-image.jpeg"
@@ -101,7 +104,7 @@ export default function Aboutus() {
               height={100}
             />
           </div>
-          <div>
+          <div className="order-1 md:order-2">
             <p className="text-2xl font-bold">We Power up your Potentials!</p>
             <p className="leading-9 mt-8">
               Ampgate Limited is a leading provider of power solutions, ranging
