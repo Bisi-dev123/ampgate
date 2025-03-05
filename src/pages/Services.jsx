@@ -84,12 +84,15 @@ export default function Services() {
                     +1 (973) 303-0214
                   </span>
                 </p>
-                <p className="flex items-center gap-3">
+                <a
+                  href="mailto:sales@ampgatenigeria.com"
+                  className="flex items-center gap-3"
+                >
                   <CiMail size={24} className="text-white" color="#ffffff" />
                   <span className="uppercase text-sm md:text-base">
                     Get a quote
                   </span>
-                </p>
+                </a>
               </div>
               <a
                 href="https://api.whatsapp.com/send/?phone=2348060648425&text=Hello+there!+I'd+like+to+know+more+about+your+product+and+services.&type=phone_number&app_absent=0"
