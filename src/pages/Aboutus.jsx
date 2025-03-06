@@ -84,7 +84,7 @@ export default function Aboutus() {
           </div>
           <div>
             <img
-              src="/crane.jpeg"
+              src="/diesel-generator-set.jpg"
               // src="/ampgate-staffs-image.jpeg"
               alt="about-us hero image"
               className="rounded-xl h-[350px] w-full object-cover"

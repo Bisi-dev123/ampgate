@@ -16,7 +16,7 @@ export default function ServicesSection() {
           <div className="max-w-[380px] h-full border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
             <div>
               <img
-                src="/generator-image.jpeg"
+                src="/diesel-generator-set.jpg"
                 alt="about-us hero image"
                 className="rounded-xl h-[300px] w-full object-cover"
                 width={100}
@@ -39,7 +39,7 @@ export default function ServicesSection() {
           <div className="max-w-[380px] h-full border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
             <div>
               <img
-                src="/equipment-image.jpeg"
+                src="/three-phase-transformer.png"
                 alt="about-us hero image"
                 className="rounded-xl h-[300px] w-full object-cover"
                 width={100}

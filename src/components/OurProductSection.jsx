@@ -74,7 +74,7 @@ export default function OurProductSection() {
           </div>
           <div>
             <img
-              src="/setapart-image.png"
+              src="/load-bank-3.jpg"
               alt="about-us hero image"
               className="rounded-xl h-[260px] md:h-[350px] lg:h-[550px] w-full object-cover"
               width={100}
