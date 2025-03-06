@@ -29,10 +29,11 @@ export default function Aboutus() {
             </div>
             <div className="relative mt-16 mx-4">
               <img
-                src="/about-us-hero-image2.jpeg"
+              src="/crane.jpeg"
+                // src="/about-us-hero-image2.jpeg"
                 // src="/load-bank.png"
                 alt="about-us hero image"
-                className="rounded-xl md:h-[505px] w-full object-center"
+                className="rounded-xl md:h-[505px] w-full object-cover"
                 width={100}
                 height={100}
               />
@@ -70,7 +71,7 @@ export default function Aboutus() {
           </div>
         </section>
         {/* ======ABOUT AMPGATE SECTION====== */}
-        <section className="grid md:grid-cols-2 gap-20 py-14 max-w-7xl mx-auto px-6">
+        <section className="grid md:grid-cols-2 gap-20 py-14 md:pt-32 md:pb-20 max-w-7xl mx-auto px-6">
           <div>
             <p className="text-2xl font-bold">About Ampgate</p>
             <p className="leading-9 mt-8">
@@ -257,8 +258,8 @@ export default function Aboutus() {
                 />
               </div>
               <div className="mt-6">
-                <p className="font-semibold ">Gbenga Olanipon</p>
-                <p className="font-light">Founder & CEO</p>
+                <p className="font-semibold ">John Doe</p>
+                <p className="font-light">CTO</p>
               </div>
             </div>
 

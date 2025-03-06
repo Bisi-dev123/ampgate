@@ -76,7 +76,7 @@ export default function Services() {
               </div>
             </div>
             <div className="flex justify-between mt-10  px-4">
-              <div className="md:flex items-center gap-4 w-fit text-white">
+              <div className="md:flex items-center gap-4 w-fit text-[#000]">
                 <p className="flex items-center gap-3">
                   <MdLocalPhone size={24} />
                   <span className="text-sm md:text-base">
@@ -88,7 +88,7 @@ export default function Services() {
                   href="mailto:sales@ampgatenigeria.com"
                   className="flex items-center gap-3"
                 >
-                  <CiMail size={24} className="text-white" color="#ffffff" />
+                  <CiMail size={24} className="text-white" color="#000" />
                   <span className="uppercase text-sm md:text-base">
                     Get a quote
                   </span>
@@ -268,7 +268,7 @@ export default function Services() {
             </div>
             <div>
               <img
-                src="/diesel-tank.png"
+                src="/diesel-tank-2.jpg"
                 // src="/services-hero-image-one.jpeg"
                 alt="about-us hero image"
                 className="rounded-xl h-[260px] md:h-[350px] lg:h-[550px] w-full object-cover"

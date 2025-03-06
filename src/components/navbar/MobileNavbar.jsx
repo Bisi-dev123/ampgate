@@ -7,7 +7,7 @@ export default function MobileNavbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] z-[1000] flex justify-between items-center px-4 bg-[#ffffff] text-gray-300 md:hidden">
+    <div className="fixed w-full h-[80px] z-[1000] flex justify-between items-center px-4 bg-[#ffffff] text-gray-300 md:hidden shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]" >
       <Link to="/">
         <img
           src="/ampgate-yellow-color.png"
