@@ -30,7 +30,7 @@ export default function Services() {
             <div className="flex items-baseline justify-between gap-10 mt-10 px-4">
               <div className="space-y-6">
                 <img
-                  src="/services-hero-image-three.jpeg"
+                  src="/crane.jpeg"
                   alt="services hero image"
                   className="rounded-full h-[60px] md:h-[100px] md:w-[100px] lg:h-[200px] lg:w-[200px] object-cover lg:ml-10 xl:ml-20"
                   width={100}
@@ -59,7 +59,7 @@ export default function Services() {
 
               <div className="space-y-6">
                 <img
-                  src="/services-hero-image-four.jpeg"
+                  src="/diesel-generator-set.jpg"
                   alt="services hero image"
                   className="rounded-full h-[60px] w-[60px] md:h-[100px] md:w-[100px] lg:h-[180px] lg:w-[180px] object-cover lg:mr-10 xl:mr-20"
                   width={100}
@@ -67,7 +67,7 @@ export default function Services() {
                 />
 
                 <img
-                  src="/services-hero-image-five.jpeg"
+                  src="/diesel-tank-2.jpg"
                   alt="services hero image"
                   className="rounded-full h-[60px] w-[100px] md:h-[100px] md:w-[100px] lg:h-[200px] lg:w-[200px] object-cover xl:ml-16"
                   width={100}
@@ -76,7 +76,7 @@ export default function Services() {
               </div>
             </div>
             <div className="flex justify-between mt-10  px-4">
-              <div className="md:flex items-center gap-4 w-fit text-white">
+              <div className="md:flex items-center gap-4 w-fit text-[#000]">
                 <p className="flex items-center gap-3">
                   <MdLocalPhone size={24} />
                   <span className="text-sm md:text-base">
@@ -88,7 +88,7 @@ export default function Services() {
                   href="mailto:sales@ampgatenigeria.com"
                   className="flex items-center gap-3"
                 >
-                  <CiMail size={24} className="text-white" color="#ffffff" />
+                  <CiMail size={24} className="text-white" color="#000" />
                   <span className="uppercase text-sm md:text-base">
                     Get a quote
                   </span>
@@ -125,7 +125,7 @@ export default function Services() {
             <div className="max-w-[380px] h-full border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
               <div>
                 <img
-                  src="/generator-image.jpeg"
+                  src="/diesel-generator-set.jpg"
                   alt="about-us hero image"
                   className="rounded-xl h-[300px] w-full object-cover"
                   width={100}
@@ -149,7 +149,7 @@ export default function Services() {
             <div className="max-w-[380px] h-full border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4">
               <div>
                 <img
-                  src="/equipment-image.jpeg"
+                  src="/three-phase-transformer.png"
                   alt="about-us hero image"
                   className="rounded-xl h-[300px] w-full object-cover"
                   width={100}
@@ -268,7 +268,7 @@ export default function Services() {
             </div>
             <div>
               <img
-                src="/diesel-tank.png"
+                src="/diesel-tank-2.jpg"
                 // src="/services-hero-image-one.jpeg"
                 alt="about-us hero image"
                 className="rounded-xl h-[260px] md:h-[350px] lg:h-[550px] w-full object-cover"
