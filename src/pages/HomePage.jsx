@@ -16,7 +16,7 @@ export default function HomePage() {
       {/* ===Hero section=== */}
       <Hero />
       {/* === Trusted Partners === */}
-      <TrustedPartners />
+      {/* <TrustedPartners /> */}
       {/* === what sets us apart ===  */}
       <OurProductSection />
       {/* === Services ===  */}

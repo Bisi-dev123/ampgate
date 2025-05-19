@@ -57,7 +57,7 @@ export default function Hero() {
                     className="flex items-center gap-3"
                   >
                     <CiMail size={24} className="text-white" color="#ffffff" />
-                    <span className="uppercase text-sm md:text-base">
+                    <span className="uppercase text-sm md:text-base hover:text-[#FF8F06] hover:underline">
                       Get a quote
                     </span>
                   </a>

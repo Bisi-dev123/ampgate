@@ -50,7 +50,7 @@ export default function Aboutus() {
                     className="flex items-center gap-3"
                   >
                     <CiMail size={24} className="text-white" color="#ffffff" />
-                    <span className="uppercase text-sm md:text-base">
+                    <span className="uppercase text-sm md:text-base hover:text-[#FF8F06] hover:underline ">
                       Get a quote
                     </span>
                   </a>
@@ -242,12 +242,12 @@ export default function Aboutus() {
 
         {/* ===Greatest Assets==== */}
         <section className="max-w-7xl lg:mt-20 mt-12 mx-auto">
-          <p className="text-center text-base font-medium lg:text-2xl lg:font-bold">
+          {/* <p className="text-center text-base font-medium lg:text-2xl lg:font-bold">
             Meet our greatest assets
-          </p>
+          </p> */}
           <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 place-items-center">
             {/* ==== CEO CARD === */}
-            <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4 mb-8">
+            {/* <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4 mb-8">
               <div>
                 <img
                   src="/expert-ceo-image.jpeg"
@@ -261,10 +261,10 @@ export default function Aboutus() {
                 <p className="font-semibold ">John Doe</p>
                 <p className="font-light">CTO</p>
               </div>
-            </div>
+            </div> */}
 
             {/* ==== CTO CARD === */}
-            <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4 mb-8">
+            {/* <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4 mb-8">
               <div>
                 <img
                   src="/expert-ceo-image.jpeg"
@@ -278,10 +278,10 @@ export default function Aboutus() {
                 <p className="font-semibold ">John Doe</p>
                 <p className="font-light">CTO</p>
               </div>
-            </div>
+            </div> */}
 
             {/* ==== COO CARD === */}
-            <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4 mb-8">
+            {/* <div className="max-w-[350px] border rounded-xl shadow-lg hover:shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] p-4 mb-8">
               <div>
                 <img
                   src="/expert-ceo-image.jpeg"
@@ -295,7 +295,7 @@ export default function Aboutus() {
                 <p className="font-semibold ">John Doe</p>
                 <p className="font-light">COO</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 

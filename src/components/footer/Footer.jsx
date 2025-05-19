@@ -45,14 +45,14 @@ export default function Footer() {
                 >
                   Contact Us
                 </li>
-                <li>Faq </li>
+                <li>FAQs </li>
               </ul>
             </div>
             {/* ======Locations Section====== */}
             <div className="my-10 md:my-0">
               <p className="font-bold mb-8">Locations</p>
               <ul className="space-y-4 text-base font-light  w-[250px]">
-                <li>4, Alhaji Akanbi Oreniwon Street. Lagos, Nigeria </li>
+                <li>33A, Adeniji Street, Ogba, Lagos, Nigeria </li>
                 <li>6289, Valley View Drive, Fishers, IN, 46038, USA</li>
               </ul>
             </div>
