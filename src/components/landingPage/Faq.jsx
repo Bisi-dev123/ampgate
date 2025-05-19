@@ -25,17 +25,18 @@ export default function Faq() {
 
       <div className="md:flex space-y-20  md:justify-between max-w-6xl md:space-y-0 md:space-x-4 lg:space-x-0 mx-auto px-2 md:px-6 items-center">
         <div className="bg-white border-[1.3px] border-[#404040] rounded-2xl max-w-[650px] mt-16  shadow-[5px_5px_0px_0px_rgba(255,143,6)]">
-          {faqData.map((faq,index) => (
+          {faqData.map((faq, index) => (
             <div
               key={index}
               onClick={() => setActiveFaq(activeFaq === index ? null : index)}
-              // className={`${
-              //   activeFaq === index ? "mt-0  bg-white rounded-t-2xl" : "mt-0 lg:py-8"
-              // } flex text-[#4a4a4a] border-b-[0.5px] border-[#404040] p-4 md:p-8 lg:px-6  justify-between  max-w-[1100px] mx-auto cursor-pointer`}
               className={`${
-                activeFaq === index ? "mt-0 bg-white rounded-t-2xl" : "mt-0 lg:py-8"
+                activeFaq === index
+                  ? "mt-0 bg-white rounded-t-2xl"
+                  : "mt-0 lg:py-8"
               } flex text-[#4a4a4a] ${
-                index !== faqData.length - 1 ? "border-b-[0.5px] border-[#404040]" : "rounded-b-2xl"
+                index !== faqData.length - 1
+                  ? "border-b-[0.5px] border-[#404040]"
+                  : "rounded-b-2xl"
               } p-4 md:p-8 lg:px-6 justify-between max-w-[1100px] mx-auto cursor-pointer`}
             >
               <div>
@@ -49,11 +50,13 @@ export default function Faq() {
                   <span>{faq.question}</span>
                 </p>
                 {activeFaq === index && (
-                  <p className="text-sm lg:text-base mt-4">{faq.answer.map((item, index)=>(
-                    <p key={index}>
-                      {item}
-                    </p>
-                  ))}</p>
+                  <div className="text-sm lg:text-base mt-4">
+                    {Array.isArray(faq?.answer) ? (
+                      faq.answer.map((item, index) => <p key={index}>{item}</p>)
+                    ) : (
+                      <p>{faq.answer}</p>
+                    )}
+                  </div>
                 )}
               </div>
               <div>
