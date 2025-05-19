@@ -29,7 +29,7 @@ export default function Aboutus() {
             </div>
             <div className="relative mt-16 mx-4">
               <img
-              src="/crane.jpeg"
+                src="/crane.jpeg"
                 // src="/about-us-hero-image2.jpeg"
                 // src="/load-bank.png"
                 alt="about-us hero image"
@@ -206,7 +206,7 @@ export default function Aboutus() {
         </section>
 
         {/* ======Our Expert team ==== */}
-        <section className="max-w-7xl mx-auto px-6 py-14">
+        <section className="max-w-7xl mx-auto px-6 pt-14">
           <div className="max-w-2xl mx-auto text-center">
             <p className="border-[1.3px] border-[#FF8F06] w-fit p-2.5 rounded-xl mx-auto mb-8">
               Our Expert Team
@@ -300,7 +300,7 @@ export default function Aboutus() {
         </section>
 
         {/* ====Mission & Vision ==== */}
-        <section className="bg-[#FEE9B1] mt-20 py-10 lg:p-10">
+        <section className="bg-[#FEE9B1] mt-14 py-20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="md:flex gap-10 w-full">
               {/* =====Card ===== */}
