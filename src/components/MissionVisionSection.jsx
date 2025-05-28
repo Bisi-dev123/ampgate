@@ -1,4 +1,5 @@
 import { Check } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function MissionVisionSection() {
   return (
@@ -11,7 +12,14 @@ export default function MissionVisionSection() {
               {/* ====Mission Card==== */}
               <div className="p-6 bg-[#ffffff] max-w-[370px] flex  gap-4 rounded-2xl">
                 <div className="h-16 w-20 bg-[#FFB100] rounded-xl" />
-                <div className="space-y-4">
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: false, amount: 0.2 }}
+                  animate={{ x: 0 }}
+                  transition={{ type: "spring", duration: 3 }}
+                  className="space-y-4"
+                >
                   <p className="text-[#FFB100] font-medium text-2xl uppercase">
                     Mission
                   </p>
@@ -23,12 +31,19 @@ export default function MissionVisionSection() {
                     uninterrupted energy for critical operations and everyday
                     needs.
                   </p>
-                </div>
+                </motion.div>
               </div>
               {/* ====Vision Card==== */}
               <div className="p-6 bg-[#ffffff] max-w-[370px] flex  gap-4 rounded-2xl">
                 <div className="h-16 w-20 bg-[#FFB100] rounded-xl" />
-                <div className="space-y-4">
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: false, amount: 0.2 }}
+                  animate={{ x: 0 }}
+                  transition={{ type: "spring", duration: 3 }}
+                  className="space-y-4"
+                >
                   <p className="text-[#FFB100] font-medium text-2xl uppercase">
                     Vision
                   </p>
@@ -39,11 +54,18 @@ export default function MissionVisionSection() {
                     and service excellence. We aim to create a brighter, more
                     connected future powered by Ampgate Limited.
                   </p>
-                </div>
+                </motion.div>
               </div>
             </div>
             {/* ====Mission & vision image ==== */}
-            <div className="md:w-[60%] mt-10  md:mt-0 flex items-center justify-center">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="md:w-[60%] mt-10  md:mt-0 flex items-center justify-center"
+            >
               <img
                 src="/mission-vision-image.png"
                 alt="about-us hero image"
@@ -51,10 +73,17 @@ export default function MissionVisionSection() {
                 width={100}
                 height={100}
               />
-            </div>
+            </motion.div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 text-sm">
-            <div className="space-y-4">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="space-y-4"
+            >
               <div className="flex items-center justify-center gap-4 w-fit">
                 <div className="h-8 w-8 rounded-full bg-[#33B333] flex items-center justify-center">
                   <Check color="#FFFFFF" />
@@ -67,8 +96,15 @@ export default function MissionVisionSection() {
                 </div>
                 <p>Customer-Centric Approach</p>
               </div>
-            </div>
-            <div className="space-y-4">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="space-y-4"
+            >
               <div className="flex items-center justify-center gap-4 w-fit">
                 <div className="h-8 w-8 rounded-full bg-[#33B333] flex items-center justify-center">
                   <Check color="#FFFFFF" />
@@ -81,8 +117,15 @@ export default function MissionVisionSection() {
                 </div>
                 <p>Reliability & Performance</p>
               </div>
-            </div>
-            <div className="space-y-4">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="space-y-4"
+            >
               <div className="flex items-center justify-center gap-4 w-fit">
                 <div className="h-8 w-8 rounded-full bg-[#33B333] flex items-center justify-center">
                   <Check color="#FFFFFF" />
@@ -95,7 +138,7 @@ export default function MissionVisionSection() {
                 </div>
                 <p> Commitment to Sustainability</p>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>

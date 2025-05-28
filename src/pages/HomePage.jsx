@@ -3,7 +3,6 @@ import AboutUs from "/src/components/landingPage/AboutUs";
 import Faq from "/src/components/landingPage/Faq";
 import Hero from "/src/components/landingPage/Hero";
 import Testimonials from "/src/components/landingPage/Testimonials";
-import TrustedPartners from "/src/components/landingPage/TrustedPartners";
 import WhatDrivesUs from "/src/components/landingPage/WhatDrivesUs";
 import MissionVisionSection from "/src/components/MissionVisionSection";
 import OurProductSection from "/src/components/OurProductSection";

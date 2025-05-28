@@ -4,6 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import Navbar from "/src/components/navbar/Navbar";
 import MobileNavbar from "/src/components/navbar/MobileNavbar";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
@@ -81,7 +82,18 @@ export default function Hero() {
         {/* ======RATING SECTION====== */}
         <section className="relative bottom-24 w-fit px-6 mx-auto pt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-10">
           {/* ====trusted expertise====== */}
-          <div className="text-[#464646] bg-[#FFFFFF] max-w-[400px] text-center p-6 rounded-xl shadow-lg">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+            }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+            className="text-[#464646] bg-[#FFFFFF] max-w-[400px] text-center p-6 rounded-xl shadow-lg"
+          >
             <h3 className="text-3xl font-bold text-[#FFB100]">15+</h3>
             <p className="font-medium text-xl my-4">
               Years of trusted expertise
@@ -90,20 +102,42 @@ export default function Hero() {
               With over fifteen years of expertise, we deliver innovative and
               reliable energy solutions tailored to your needs
             </p>
-          </div>
+          </motion.div>
 
           {/* ====Successful Projects ====== */}
-          <div className="text-[#464646] bg-[#FFFFFF] max-w-[400px] text-center p-6 rounded-xl shadow-lg">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+            }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+            className="text-[#464646] bg-[#FFFFFF] max-w-[400px] text-center p-6 rounded-xl shadow-lg"
+          >
             <h3 className="text-3xl font-bold text-[#FFB100]">2k</h3>
             <p className="font-medium text-xl my-4">Successful Projects</p>
             <p className="text-lg leading-8 font-extralight">
               With a proven record of excellence, our portfolio highlights
               diverse projects executed to perfection
             </p>
-          </div>
+          </motion.div>
 
           {/* ====Rated by Satisfied Clients ====== */}
-          <div className="text-[#464646] bg-[#FFFFFF] max-w-[400px] text-center p-6 rounded-xl shadow-lg">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+            }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+            className="text-[#464646] bg-[#FFFFFF] max-w-[400px] text-center p-6 rounded-xl shadow-lg"
+          >
             <h3 className="text-3xl font-bold text-[#FFB100]">4.9/5</h3>
             <p className="font-medium text-xl my-4">
               Rated by Satisfied Clients
@@ -112,7 +146,7 @@ export default function Hero() {
               Our near-perfect rating reflects our dedication to exceptional
               service and customer satisfaction
             </p>
-          </div>
+          </motion.div>
         </section>
       </div>
     </>

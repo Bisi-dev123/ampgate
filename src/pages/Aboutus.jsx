@@ -6,6 +6,7 @@ import Navbar from "/src/components/navbar/Navbar";
 import MobileNavbar from "/src/components/navbar/MobileNavbar";
 import Footer from "/src/components/footer/Footer";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function Aboutus() {
   return (
@@ -28,15 +29,24 @@ export default function Aboutus() {
               </p>
             </div>
             <div className="relative mt-16 mx-4">
-              <img
-                src="/crane.jpeg"
-                // src="/about-us-hero-image2.jpeg"
-                // src="/load-bank.png"
-                alt="about-us hero image"
-                className="rounded-xl md:h-[505px] w-full object-cover"
-                width={100}
-                height={100}
-              />
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.2 }}
+                whileHover={{
+                  scale: 1.05,
+                }}
+                animate={{ x: 0 }}
+                transition={{ type: "spring", duration: 3 }}
+              >
+                <img
+                  src="/crane.jpeg"
+                  alt="about-us hero image"
+                  className="rounded-xl md:h-[505px] w-full object-cover"
+                  width={100}
+                  height={100}
+                />
+              </motion.div>
               <div className="flex justify-between absolute mt-6 md:mt-0 md:bottom-60 w-full md:text-[#ffffff]">
                 <div className="md:flex items-center gap-4 w-fit">
                   <p className="flex items-center gap-3">
@@ -72,7 +82,13 @@ export default function Aboutus() {
         </section>
         {/* ======ABOUT AMPGATE SECTION====== */}
         <section className="grid md:grid-cols-2 gap-20 py-14 md:pt-32 md:pb-20 max-w-7xl mx-auto px-6">
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+          >
             <p className="text-2xl font-bold">About Ampgate</p>
             <p className="leading-9 mt-8">
               Ampgate is a private company limited with Company Number RC
@@ -81,31 +97,73 @@ export default function Aboutus() {
               company better serve our clients which include oil and gas,
               utility, IPP, industrial and commercial segments of the economy.
             </p>
-          </div>
-          <div>
-            <img
-              src="/diesel-generator-set.jpg"
-              // src="/ampgate-staffs-image.jpeg"
-              alt="about-us hero image"
-              className="rounded-xl h-[350px] w-full object-cover"
-              width={100}
-              height={100}
-            />
-          </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+            }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+          >
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+            >
+              <img
+                src="/diesel-generator-set.jpg"
+                alt="about-us hero image"
+                className="rounded-xl h-[350px] w-full object-cover"
+                width={100}
+                height={100}
+              />
+            </motion.div>
+          </motion.div>
         </section>
         {/* ======POWER UP POTENTIALS SECTION====== */}
         <section className="grid grid-cols-1 md:grid-cols-2 gap-20 py-14 max-w-7xl mx-auto px-6 md:auto-rows-auto">
-          <div className="order-2 md:order-1">
-            <img
-              src="/cat-generator.jpeg"
-              // src="/ampgate-solar-image.jpeg"
-              alt="about-us hero image"
-              className="rounded-xl h-[350px] w-full object-cover"
-              width={100}
-              height={100}
-            />
-          </div>
-          <div className="order-1 md:order-2">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            whileHover={{
+              scale: 1.05,
+              boxShadow: "0px 0px 8px rgb(255, 255, 255)",
+            }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+          >
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="order-2 md:order-1"
+            >
+              <img
+                src="/cat-generator.jpeg"
+                alt="about-us hero image"
+                className="rounded-xl h-[350px] w-full object-cover"
+                width={100}
+                height={100}
+              />
+            </motion.div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+            className="order-1 md:order-2"
+          >
             <p className="text-2xl font-bold">We Power up your Potentials!</p>
             <p className="leading-9 mt-8">
               Ampgate Limited is a leading provider of power solutions, ranging
@@ -117,12 +175,19 @@ export default function Aboutus() {
               businesses and individuals in need of reliable and efficient power
               systems.
             </p>
-          </div>
+          </motion.div>
         </section>
 
         {/* ======WHY CHOOSE US SECTION====== */}
         <section className="max-w-7xl mx-auto px-6 py-14">
-          <div className="max-w-2xl mx-auto text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+            className="max-w-2xl mx-auto text-center"
+          >
             <p className="border-[1.3px] border-[#FF8F06] w-fit p-2.5 rounded-xl mx-auto mb-8">
               Why Choose Us
             </p>
@@ -130,10 +195,17 @@ export default function Aboutus() {
               In the last 15 years, Ampgate has grown to serve oil and gas,
               utility, IPP, industrial and commercial segment of the economy.
             </p>
-          </div>
+          </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 md:place-items-center lg:grid-cols-4 gap-6 mt-10">
             {/* ====== Card One ====== */}
-            <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="border md:max-w-[280px] text-center p-4 rounded-xl"
+            >
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
                 <img
                   src="./why-choose-us1.svg"
@@ -147,10 +219,17 @@ export default function Aboutus() {
                 attention, quick responses, and professional support every step
                 of the way
               </p>
-            </div>
+            </motion.div>
             {/* ====== Card Two ====== */}
 
-            <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="border md:max-w-[280px] text-center p-4 rounded-xl"
+            >
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
                 <img
                   src="./why-choose-us2.svg"
@@ -164,11 +243,18 @@ export default function Aboutus() {
                 Partnering with leading manufacturers to provide reliable
                 solutions.
               </p>
-            </div>
+            </motion.div>
 
             {/* =====Card three===== */}
 
-            <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="border md:max-w-[280px] text-center p-4 rounded-xl"
+            >
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
                 <img
                   src="./why-choose-us3.svg"
@@ -184,10 +270,17 @@ export default function Aboutus() {
                 closely with you to provide solutions that fit your goals and
                 budget
               </p>
-            </div>
+            </motion.div>
 
             {/* ====== Card four ===== */}
-            <div className="border md:max-w-[280px] text-center p-4 rounded-xl">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, amount: 0.2 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring", duration: 3 }}
+              className="border md:max-w-[280px] text-center p-4 rounded-xl"
+            >
               <div className="w-10 h-10 flex justify-center items-center bg-black rounded-full mx-auto">
                 <img
                   src="./why-choose-us4.svg"
@@ -201,18 +294,25 @@ export default function Aboutus() {
                 solutions, staying current with trends and regulations all just
                 for you.
               </p>
-            </div>
+            </motion.div>
           </div>
         </section>
 
         {/* ======Our Expert team ==== */}
         <section className="max-w-7xl mx-auto px-6 pt-14">
-          <div className="max-w-2xl mx-auto text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.2 }}
+            animate={{ x: 0 }}
+            transition={{ type: "spring", duration: 3 }}
+            className="max-w-2xl mx-auto text-center"
+          >
             <p className="border-[1.3px] border-[#FF8F06] w-fit p-2.5 rounded-xl mx-auto mb-8">
               Our Expert Team
             </p>
             <p>Ampgate Team: Powering Your Business with Expertise</p>
-          </div>
+          </motion.div>
 
           <div className="relative mt-16 rounded-3xl">
             <img
@@ -306,7 +406,14 @@ export default function Aboutus() {
               {/* =====Card ===== */}
               <div className="md:w-[40%] gap-4 flex flex-col">
                 {/* ====Mission Card==== */}
-                <div className="p-6 bg-[#ffffff] max-w-[370px] flex  gap-4 rounded-2xl">
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: false, amount: 0.2 }}
+                  animate={{ x: 0 }}
+                  transition={{ type: "spring", duration: 3 }}
+                  className="p-6 bg-[#ffffff] max-w-[370px] flex  gap-4 rounded-2xl"
+                >
                   <div className="h-16 w-20 bg-[#FFB100] rounded-xl" />
                   <div className="space-y-4">
                     <p className="text-[#FFB100] font-medium text-2xl uppercase">
@@ -321,9 +428,16 @@ export default function Aboutus() {
                       needs.
                     </p>
                   </div>
-                </div>
+                </motion.div>
                 {/* ====Vision Card==== */}
-                <div className="p-6 bg-[#ffffff] max-w-[370px] flex  gap-4 rounded-2xl">
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: false, amount: 0.2 }}
+                  animate={{ x: 0 }}
+                  transition={{ type: "spring", duration: 3 }}
+                  className="p-6 bg-[#ffffff] max-w-[370px] flex  gap-4 rounded-2xl"
+                >
                   <div className="h-16 w-20 bg-[#FFB100] rounded-xl" />
                   <div className="space-y-4">
                     <p className="text-[#FFB100] font-medium text-2xl uppercase">
@@ -338,10 +452,17 @@ export default function Aboutus() {
                       Ampgate Limited.
                     </p>
                   </div>
-                </div>
+                </motion.div>
               </div>
               {/* ====Mission & vision image ==== */}
-              <div className="md:w-[60%] mt-10  md:mt-0 flex items-center justify-center">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.2 }}
+                animate={{ x: 0 }}
+                transition={{ type: "spring", duration: 3 }}
+                className="md:w-[60%] mt-10  md:mt-0 flex items-center justify-center"
+              >
                 <img
                   src="/mission-vision-image.png"
                   alt="about-us hero image"
@@ -349,10 +470,17 @@ export default function Aboutus() {
                   width={100}
                   height={100}
                 />
-              </div>
+              </motion.div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 text-sm">
-              <div className="space-y-4">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.2 }}
+                animate={{ x: 0 }}
+                transition={{ type: "spring", duration: 3 }}
+                className="space-y-4"
+              >
                 <div className="flex items-center justify-center gap-4 w-fit">
                   <div className="h-8 w-8 rounded-full bg-[#33B333] flex items-center justify-center">
                     <Check color="#FFFFFF" />
@@ -365,8 +493,15 @@ export default function Aboutus() {
                   </div>
                   <p>Customer-Centric Approach</p>
                 </div>
-              </div>
-              <div className="space-y-4">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.2 }}
+                animate={{ x: 0 }}
+                transition={{ type: "spring", duration: 3 }}
+                className="space-y-4"
+              >
                 <div className="flex items-center justify-center gap-4 w-fit">
                   <div className="h-8 w-8 rounded-full bg-[#33B333] flex items-center justify-center">
                     <Check color="#FFFFFF" />
@@ -379,8 +514,15 @@ export default function Aboutus() {
                   </div>
                   <p>Reliability & Performance</p>
                 </div>
-              </div>
-              <div className="space-y-4">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.2 }}
+                animate={{ x: 0 }}
+                transition={{ type: "spring", duration: 3 }}
+                className="space-y-4"
+              >
                 <div className="flex items-center justify-center gap-4 w-fit">
                   <div className="h-8 w-8 rounded-full bg-[#33B333] flex items-center justify-center">
                     <Check color="#FFFFFF" />
@@ -393,7 +535,7 @@ export default function Aboutus() {
                   </div>
                   <p> Commitment to Sustainability</p>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </section>

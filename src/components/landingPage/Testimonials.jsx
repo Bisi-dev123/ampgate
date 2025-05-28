@@ -1,15 +1,31 @@
+import { motion } from "framer-motion";
+
 export default function Testimonials() {
   return (
     <div className="p-3 py-20 md:py-32 bg-[#F8F7F3]">
-      <div className="flex flex-col justify-center items-center">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.2 }}
+        animate={{ x: 0 }}
+        transition={{ type: "spring", duration: 3 }}
+        className="flex flex-col justify-center items-center"
+      >
         <p className="border-[1.3px] border-[#FF8F06] p-2.5 px-4 rounded-2xl text-center mb-3 w-[200px]">
           Testimonials
         </p>
         <p className="mb-8">Hear from our satisfied clients</p>
-      </div>
+      </motion.div>
       <section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
         {/* ====== Card One ====== */}
-        <div className="border md:max-w-[380px] text-left p-6 py-10 rounded-xl">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.2 }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", duration: 3 }}
+          className="border md:max-w-[380px] text-left p-6 py-10 rounded-xl"
+        >
           <p className="text-[#FF8F06] font-bold text-lg">CanePro Industries</p>
           <p className="text-[#464646] font-thin text-base mt-4">
             &quot;Ampgate has been a game-changer for our production facility.
@@ -30,10 +46,17 @@ export default function Testimonials() {
               <p className="text-[#4A4A4A] text-xs">Operations Manager</p>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* ====== Card Two ====== */}
-        <div className="border md:max-w-[380px] text-left p-6 py-10 rounded-xl">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.2 }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", duration: 3 }}
+          className="border md:max-w-[380px] text-left p-6 py-10 rounded-xl"
+        >
           <p className="text-[#FF8F06] font-bold text-lg">
             PurpleSquare Developments
           </p>
@@ -56,10 +79,17 @@ export default function Testimonials() {
               <p className="text-[#4A4A4A] text-xs">CEO</p>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         {/* ====== Card Three ====== */}
-        <div className="border md:max-w-[380px] text-left p-6 py-10 rounded-xl">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.2 }}
+          animate={{ x: 0 }}
+          transition={{ type: "spring", duration: 3 }}
+          className="border md:max-w-[380px] text-left p-6 py-10 rounded-xl"
+        >
           <p className="text-[#FF8F06] font-bold text-lg">EG&G Hospital</p>
           <p className="text-[#464646] font-thin text-base mt-4">
             &quot;Power stability is non-negotiable in healthcare, and Ampgate
@@ -80,7 +110,7 @@ export default function Testimonials() {
               <p className="text-[#4A4A4A] text-xs">Medical Director</p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </section>
     </div>
   );
