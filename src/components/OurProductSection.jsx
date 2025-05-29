@@ -131,7 +131,7 @@ export default function OurProductSection() {
                   <Check color="#FFFFFF" />
                 </div>
                 <p>
-                  Project Management Engineering 
+                  Project Management & Engineering 
                 </p>
               </motion.div>
 
