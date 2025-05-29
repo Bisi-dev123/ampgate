@@ -70,7 +70,7 @@ export default function Footer() {
                   to="mailto:ampgatellc.com"
                   className="text-wrap block hover:font-semibold "
                 >
-                  ampgatellc.com
+                  ampgatellc@gmail.com
                 </Link>
                 <li>+234 806 064 8425</li>
                 <li>+1 (973) 303-0214</li>

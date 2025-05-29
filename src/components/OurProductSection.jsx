@@ -131,7 +131,23 @@ export default function OurProductSection() {
                   <Check color="#FFFFFF" />
                 </div>
                 <p>
-                  Project Management Engineering Generator sales and services
+                  Project Management Engineering 
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: false, amount: 0.2 }}
+                animate={{ x: 0 }}
+                transition={{ type: "spring", duration: 3 }}
+                className="flex items-center justify-center gap-4 w-fit"
+              >
+                <div className="h-8 w-8 rounded-full bg-[#33B333] flex items-center justify-center">
+                  <Check color="#FFFFFF" />
+                </div>
+                <p>
+                  EPC - Generator Sales and Services
                 </p>
               </motion.div>
             </div>
