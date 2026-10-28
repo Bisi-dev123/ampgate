@@ -39,12 +39,12 @@ export default function ContactUsPage() {
                 <p className="flex items-center gap-3">
                   <MdLocalPhone size={24} />
                   <span className="text-sm md:text-base">
-                    +234 806 064 8425, <br className="md:hidden" />
+                    {/* +234 806 064 8425, <br className="md:hidden" /> */}
                     +1 (973) 303-0214
                   </span>
                 </p>
                 <a
-                  href="mailto:sales@ampgatenigeria.com"
+                  href="mailto:ampgatellc@gmail.com"
                   className="flex items-center gap-3"
                 >
                   <CiMail size={24} className="text-white" color="#ffffff" />
@@ -137,17 +137,17 @@ export default function ContactUsPage() {
               />
               <p>Let Ampgate Limited power your success</p>
             </div>
-            <p>
+            {/* <p>
               4, Alhaji Akanbi Oreniwon <br />
               Street. Lagos, Nigeria
-            </p>
-            <p>+234 806 064 8425</p>
-            <Link
-              to="mailto:sales@ampgatenigeria.com"
+            </p> */}
+            {/* <p>+234 806 064 8425</p> */}
+            {/* <Link
+              to="mailto:ampgatellc@gmail.com"
               className="lg:hover:font-semibold text-[#FFB100]"
             >
-              sales@ampgatenigeria.com
-            </Link>
+              ampgatellc@gmail.com
+            </Link> */}
             <p>AMGATE LLC 6289 VALLEY VIEW DRIVE, Fishers, IN, 46038, USA</p>
             <p>+1 (973) 303-0214</p>
             <Link
