@@ -50,9 +50,9 @@ export default function Footer() {
             </div>
             {/* ======Locations Section====== */}
             <div className="my-10 md:my-0">
-              <p className="font-bold mb-8">Locations</p>
+              <p className="font-bold mb-8">Location</p>
               <ul className="space-y-4 text-base font-light  w-[250px]">
-                <li>33A, Adeniji Street, Ogba, Lagos, Nigeria </li>
+                {/* <li>33A, Adeniji Street, Ogba, Lagos, Nigeria </li> */}
                 <li>6289, Valley View Drive, Fishers, IN, 46038, USA</li>
               </ul>
             </div>
@@ -60,19 +60,19 @@ export default function Footer() {
             <div className="my-10 md:my-0">
               <p className="font-bold mb-8">Contact Us</p>
               <ul className="space-y-4 text-base font-light">
-                <Link
+                {/* <Link
                   to="mailto:sales@ampgatenigeria.com"
                   className="text-wrap block hover:font-semibold"
                 >
                   sales@ampgatenigeria.com
-                </Link>
+                </Link> */}
                 <Link
                   to="mailto:ampgatellc.com"
                   className="text-wrap block hover:font-semibold "
                 >
                   ampgatellc@gmail.com
                 </Link>
-                <li>+234 806 064 8425</li>
+                {/* <li>+234 806 064 8425</li> */}
                 <li>+1 (973) 303-0214</li>
               </ul>
             </div>
